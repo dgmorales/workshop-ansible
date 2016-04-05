@@ -1,0 +1,15 @@
+- hosts: all
+  become: true
+  vars:
+    app_bin: /opt/myapp/bin
+    sys_bin: /usr/local/bin
+  tasks:
+  - name: create symlinks for our app
+    file: >
+      state=link src={{ app_bin }}/{{ item }}
+      dest={{ sys_bin }}/myapp-{{ item }} force=yes
+    with_items:
+      - run
+      - build
+      - update
+      - foo
