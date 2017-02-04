@@ -24,9 +24,6 @@ Vagrant.configure(2) do |config|
   # we need to this so vagrant generates the ansible inventory for us
   config.vm.provision "ansible" do |ansible|
     ansible.playbook = "ansible/nothing.yml"
-    ansible.groups = {
-      "rabbits" => ["m[1:2]"]
-    }
   end
 
   config.vm.define :ansiblecm do |cm3|
