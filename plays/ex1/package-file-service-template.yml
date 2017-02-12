@@ -1,0 +1,19 @@
+- hosts: all
+  become: true
+  name: Install and configure NTP
+  tasks:
+    - name: Install NTP
+      package: name=ntp state=present
+
+    - name: Copy ntp config file
+      template:
+        src: files/etc/ntp.conf.j2
+        dest: /etc/ntp.conf
+      notify:
+        - restart ntpd
+
+    - name: Ensure ntpd starts on boot
+      service: name=ntpd state=started
+  handlers:
+    - name: restart ntpd
+      service: name=ntpd state=restarted

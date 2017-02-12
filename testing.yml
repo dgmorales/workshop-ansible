@@ -1,0 +1,5 @@
+---
+- name: In the beggining, there was nothing
+  hosts: all
+  tasks:
+    - include: plays/nothing.yml

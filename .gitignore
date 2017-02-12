@@ -1,2 +1,7 @@
-puppet/envs/production/modules/future/
 .vagrant/
+*.retry
+*.un~
+*~
+*.swp
+vaultpass
+roles/

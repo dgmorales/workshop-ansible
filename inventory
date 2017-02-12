@@ -1,0 +1,9 @@
+[webservers]
+m1
+m2
+
+[loadbal]
+m3
+
+[rabbits]
+m[1:2]

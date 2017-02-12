@@ -7,7 +7,6 @@
 # you're doing.
 Vagrant.configure(2) do |config|
 
-  #config.vm.box = "bento/ubuntu-16.04"
   config.vm.box = "bento/centos-7.2"
   # set some names <=> ips inside all machines
   # config.vm.provision :hosts do |h|
@@ -16,27 +15,25 @@ Vagrant.configure(2) do |config|
   #     h.add_host '192.168.100.12', ['m2.local', 'm2']
   # end
 
-  config.vm.provider "virtualbox" do |vb|
-     # Customize the amount of memory on the VM:
-     vb.memory = "512"
-  end
+  #config.vm.provider "virtualbox" do |vb|
+  #   # Customize the amount of memory on the VM:
+  #   vb.memory = "512"
+  #end
 
   # we need to this so vagrant generates the ansible inventory for us
-  config.vm.provision "ansible" do |ansible|
-    ansible.playbook = "ansible/nothing.yml"
-  end
+  #config.vm.provision "ansible" do |ansible|
+  #  ansible.playbook = "./nothing.yml"
+  #end
 
-  config.vm.define :ansiblecm do |cm3|
-    cm3.vm.provider "virtualbox" do |vb|
-       vb.memory = "1024"
-    end
-    #cm3.vm.provision "ansible" do |ansible|
-    #  ansible.playbook = "ansible/ansible.yml"
+  config.vm.define :ansiblecm do |cm|
+    #cm.vm.provider "virtualbox" do |vb|
+    #   vb.memory = "1024"
     #end
-    cm3.vm.hostname = "ansiblecm.local"
-    cm3.vm.network "private_network", ip: "192.168.100.7", virtualbox__intnet: "cmnet"
+    cm.vm.provision "shell", path: "./workshop_data/prov-ansible.sh"
+    cm.vm.hostname = "ansiblecm.local"
+    cm.vm.network "private_network", ip: "192.168.100.7", virtualbox__intnet: "cmnet"
     #cm3.vm.network "forwarded_port", guest: 80, host: 9080
-    cm3.vm.network "forwarded_port", guest: 4440, host: 4440
+    #cm3.vm.network "forwarded_port", guest: 4440, host: 4440
   end
 
   # config.vm.define :tower do |cm5|
@@ -62,9 +59,9 @@ Vagrant.configure(2) do |config|
     m2.vm.network "forwarded_port", guest: 15672, host: 25672  # rabbitmq mgmt
     m2.vm.network "forwarded_port", guest: 80, host: 8082  # nginx
   end
-  # config.vm.define :m3 do |m3|
-    # m3.vm.hostname = "m3.local"
-    # m3.vm.network "private_network", ip: "192.168.100.13", virtualbox__intnet: "cmnet"
-  # end
+   config.vm.define :m3 do |m3|
+    m3.vm.hostname = "m3.local"
+    m3.vm.network "private_network", ip: "192.168.100.13", virtualbox__intnet: "cmnet"
+   end
 
 end

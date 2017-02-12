@@ -1,6 +1,4 @@
-# example-workshop-ansible CPBR10
-
-http://dgmorales.info/cpbr10
+# Ansible Workshop by @dgmorales
 
 Requirements:
 
@@ -14,8 +12,7 @@ Requirements:
 vagrant up
 ```
 
-### Rundeck info
+# Cheat Sheet
 
-Default users and pass:
-- admin/admin
-- user/user
+Several commands shown in the workshop:
+./workshop_data/commands.txt

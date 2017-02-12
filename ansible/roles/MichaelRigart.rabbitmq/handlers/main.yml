@@ -1,6 +1,0 @@
----
-
-- name: rabbitmq_restart
-  service:
-    name: rabbitmq-server
-    state: restarted
