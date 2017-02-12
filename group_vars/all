@@ -1,3 +1,6 @@
+ansible_user: vagrant
+ansible_password: vagrant
+
 ntp_servers:
   - a.ntp.br
   - b.ntp.br
