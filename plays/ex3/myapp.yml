@@ -1,0 +1,4 @@
+- name: create docroot
+  file: name="{{ nginx_docroot }}" state=directory
+- name: create index.html
+  template: src=files/index-nginx-example.html.j2 dest={{ nginx_docroot }}/index.html

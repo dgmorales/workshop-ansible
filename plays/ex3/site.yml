@@ -1,0 +1,4 @@
+# we can have includes of whole plays also
+- include: webservers.yml
+#- include: loadbalancers.yml
+#- include: databases.yml

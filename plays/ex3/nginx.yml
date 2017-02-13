@@ -1,0 +1,30 @@
+- include_vars: vars/nginx.yml
+
+
+- name: Enable nginx repo.
+  template:
+    src: templates/nginx.repo.j2
+    dest: /etc/yum.repos.d/nginx.repo
+    owner: root
+    group: root
+    mode: 0644
+  when: not {{ use_epel|bool }}
+
+- name: Ensure nginx is installed.
+  yum: name=nginx state=installed
+  ignore_errors: "{{ ansible_check_mode }}"
+
+- name: Copy nginx configuration in place.
+  template:
+    src: nginx.conf.j2
+    dest: "{{ nginx_conf_file_path }}"
+    owner: root
+    group: root
+    mode: 0644
+  notify:
+    - reload nginx
+  ignore_errors: "{{ ansible_check_mode }}"
+
+- name: Ensure nginx is started and enabled to start at boot.
+  service: name=nginx state=started enabled=yes
+  ignore_errors: "{{ ansible_check_mode }}"

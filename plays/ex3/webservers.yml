@@ -1,0 +1,17 @@
+---
+- name: Configure webservers
+  hosts: webservers
+  become: true
+  vars:
+    use_epel: true
+  tasks:
+    - include: epel.yml
+      when: "{{ use_epel|bool }} == true"
+    - include: nginx.yml
+    - include: myapp.yml
+      tags: myapp
+    # we can override vars when including also:
+    #- include: nginx.yml nginx_port=82
+  handlers:
+    - name: reload nginx
+      service: name=nginx state=restarted
