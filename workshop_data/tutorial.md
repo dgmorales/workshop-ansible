@@ -75,17 +75,71 @@ Also, we have 3 things here: epel, nginx, and myapp.
 
 Includes are not so good, but can be useful.
 
-`ansible-playbook -i inventory plays/ex3/webserver.yml`
+`ansible-playbook -i inventory plays/ex3/site.yml`
+
+- Variables, plays and tasks includes
+- Includes can override variables and be used for multiple instances of a resource
 
 # Roles
 
-The right way.
+The right way. A bit like includes done right.
 
-## Creating a Roles
+Advantages:
+- More contained. Everything in one place.
+- Easy to redistribute.
+- Auto search things in appropriate paths.
+- Default variables.
+- Can have metadata and dependencies.
+
+## Creating a role
+
+We can use ansible-galaxy init:
+
+```
+mkdir roles
+ansible-galaxy init example.epel -p ./roles
+ansible-galaxy init example.nginx -p ./roles
+```
+
+An environment playbook: testing.yml.
+
+`ansible-playbook -i inventory testing.yml -l webservers`
+
+Note:
+- Two ways to call a role
+- *when* used in the role call
+- Variable precedence
+- Should myapp be a role?
+  - We could make it so and use role dependencies for nginx and epel
 
 ## Using roles and ansible-galaxy
 
+Let's add haproxy. Let's use a role from Ansible Galaxy.
+
+https://galaxy.ansible.com/list#/roles?page=1&page_size=10&autocomplete=haproxy&order=-download_count,name
+
+`ansible-playbook -i inventory testing.yml`
+
+Note:
+
+- Backend haproxy servers var could be fully built from hostvars
+  - "Ansible is not a full language"
+  - Need a custom jinja filter?
+
+
 # Orchestration, rolling upgrades, etc.
+
+`ansible-playbook -i inventory plays/rolling-update.yml`
+
+While on pause, check that only one machine answers using the balancer:
+`curl http://192.168.100.13`
+
+Note:
+- serial: 1
+- delegate_to and {{ inventory_hostname }}
+- with_items being used because could be several load balancers
+- wait_for and interactive pause
+- could use reboot if needed
 
 # Other topics
 

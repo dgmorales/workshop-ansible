@@ -1,0 +1,23 @@
+---
+# tasks file for example.nginx
+- include: nginx-repo.yml
+  when: not {{ nginx_use_epel|bool }}
+
+- name: Ensure nginx is installed.
+  yum: name=nginx state=installed
+  ignore_errors: "{{ ansible_check_mode }}"
+
+- name: Copy nginx configuration in place.
+  template:
+    src: nginx.conf.j2
+    dest: "{{ nginx_conf_file_path }}"
+    owner: root
+    group: root
+    mode: 0644
+  notify:
+    - reload nginx
+  ignore_errors: "{{ ansible_check_mode }}"
+
+- name: Ensure nginx is started and enabled to start at boot.
+  service: name=nginx state=started enabled=yes
+  ignore_errors: "{{ ansible_check_mode }}"

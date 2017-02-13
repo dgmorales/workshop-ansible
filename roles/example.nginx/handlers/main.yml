@@ -1,0 +1,4 @@
+---
+# handlers file for example.nginx
+- name: reload nginx
+  service: name=nginx state=restarted

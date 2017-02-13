@@ -1,5 +1,30 @@
 ---
-- name: In the beggining, there was nothing
-  hosts: all
+- name: Configure webservers
+  hosts: webservers
+  become: true
+  vars:
+    nginx_use_epel: true
+  roles:
+    - { role: example.epel, when: "nginx_use_epel == true" }
+    - example.nginx
   tasks:
-    - include: plays/nothing.yml
+    - debug: var=nginx_docroot
+      run_once: true
+    - name: create docroot
+      file: name="{{ nginx_docroot }}" state=directory
+    - name: create index.html
+      template: src=files/index-nginx-example.html.j2 dest={{ nginx_docroot }}/index.html
+
+- name: Configure haproxy
+  hosts: loadbal
+  become: true
+  vars:
+    haproxy_backend_servers:
+      - name: m1
+        address: "{{ hostvars['m1'].ansible_enp0s8.ipv4.address }}:80"
+      - name: m2
+        address: "{{ hostvars['m2'].ansible_enp0s8.ipv4.address }}:80"
+  roles:
+    - geerlingguy.haproxy
+  #tasks:
+  #  - debug: var=haproxy_backend_servers

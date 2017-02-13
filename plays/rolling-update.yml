@@ -1,0 +1,22 @@
+---
+- hosts: webservers
+  serial: 1
+  become: true
+  tasks:
+    - name: disable the server in haproxy
+      haproxy: 'state=disabled backend=habackend host={{ inventory_hostname }} socket=/var/lib/haproxy/stats'
+      delegate_to: "{{ item }}"
+      with_items: "{{ groups.loadbal }}"
+
+    - name: update nginx
+      yum: name=nginx state=latest
+
+    - pause: seconds=40
+    
+    - name: wait for webserver to come up
+      wait_for: port=80 timeout=80
+
+    - name: enable the server in haproxy
+      haproxy: 'state=enabled backend=habackend host={{ inventory_hostname }} socket=/var/lib/haproxy/stats'
+      delegate_to: "{{ item }}"
+      with_items: "{{ groups.loadbal }}"
