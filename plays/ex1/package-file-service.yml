@@ -13,7 +13,7 @@
         - restart ntpd
 
     - name: Ensure ntpd starts on boot
-      service: name=ntpd state=started
+      service: name=ntpd state=started enabled=yes
   handlers:
     - name: restart ntpd
       service: name=ntpd state=restarted
