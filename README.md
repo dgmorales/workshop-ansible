@@ -2,6 +2,7 @@
 
 Requirements:
 
+  - Git (only for cloning this repo, you can download as zip also). On Windows, try [cmder](http://cmder.net/) full.
   - [Vagrant](https://www.vagrantup.com/)
   - [Virtualbox](https://www.virtualbox.org/)
 
