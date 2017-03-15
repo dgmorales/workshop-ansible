@@ -1,0 +1,5 @@
+---
+- hosts: ansiblecm
+  become: yes
+  roles:
+    - buy4.ansible
