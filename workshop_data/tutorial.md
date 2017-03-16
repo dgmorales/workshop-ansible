@@ -8,6 +8,8 @@ On windows, check:https://doauto.blog/2016/12/22/ansible-windows-rodando-ansible
 
 ```
 ansible -i inventory all -m ping
+ansible -i inventory all -m ping --ssh-extra-args="-o StrictHostKeyChecking=no"
+# if you comment ansible_user/ansible_password in group_vars/all you will need:
 ansible -i inventory all -m ping -u vagrant --ask-pass
 ```
 
