@@ -1,19 +1,28 @@
 ---
+- name: Common tasks to all servers
+  hosts: all
+  become: true
+  roles:
+    - example.epel
+    - example.common
+  tags: common
+
+- name: Configure database servers
+  hosts: dbservers
+  become: true
+  vars:
+  roles:
+    - example.mariadb
+
 - name: Configure webservers
   hosts: webservers
   become: true
   vars:
-    nginx_use_epel: true
   roles:
-    - { role: example.epel, when: "nginx_use_epel == true" }
-    - example.nginx
-  tasks:
-    - debug: var=nginx_docroot
-      run_once: true
-    - name: create docroot
-      file: name="{{ nginx_docroot }}" state=directory
-    - name: create index.html
-      template: src=files/index-nginx-example.html.j2 dest={{ nginx_docroot }}/index.html
+    - geerlingguy.apache
+    - geerlingguy.php
+    - geerlingguy.apache-php-fpm
+    - { role: example.myapp, tags: myapp }
 
 - name: Configure haproxy
   hosts: loadbal
@@ -26,5 +35,3 @@
         address: "{{ hostvars['m2'].ansible_enp0s8.ipv4.address }}:80"
   roles:
     - geerlingguy.haproxy
-  #tasks:
-  #  - debug: var=haproxy_backend_servers

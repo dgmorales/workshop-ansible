@@ -1,0 +1,2 @@
+- ansible vault example (machine creds, db creds)
+- rolling update using myapp
