@@ -1,0 +1,1482 @@
+{
+  "stdout": [
+    [
+      0.072927,
+      "\u001b]777;notify;Command completed;vagrant ssh ansiblecm \u0007\u001b]0;dmorales@rj-dvp0007:~/src/talks/workshop-ansible\u0007\u001b]7;file://rj-dvp0007.stone.local/home/dmorales/src/talks/workshop-ansible\u0007"
+    ],
+    [
+      0.002576,
+      "~/src/talks/workshop-ansible\u001b[33;2m(master)\u001b[0m$ "
+    ],
+    [
+      0.729781,
+      "vagrant ssh ansiblecm "
+    ],
+    [
+      0.833039,
+      "\r\n"
+    ],
+    [
+      1.558798,
+      "Last login: Sat Mar 25 15:23:16 2017 from 10.0.2.2\r\r\n\u001b]0;vagrant@ansiblecm:~\u0007\u001b[?1034h[vagrant@ansiblecm ~]$ "
+    ],
+    [
+      0.453988,
+      "c"
+    ],
+    [
+      0.086429,
+      "d"
+    ],
+    [
+      0.104621,
+      " "
+    ],
+    [
+      0.83009,
+      "/"
+    ],
+    [
+      0.087551,
+      "v"
+    ],
+    [
+      0.117074,
+      "a"
+    ],
+    [
+      0.27768,
+      "g"
+    ],
+    [
+      0.165518,
+      "r"
+    ],
+    [
+      0.06126,
+      "a"
+    ],
+    [
+      0.244482,
+      "nt/"
+    ],
+    [
+      0.353275,
+      "\r\n"
+    ],
+    [
+      0.000217,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      0.980771,
+      "cd /vagrant/"
+    ],
+    [
+      0.762342,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\u001b[K"
+    ],
+    [
+      0.245173,
+      "\u0007"
+    ],
+    [
+      1.05333,
+      "a"
+    ],
+    [
+      0.12058,
+      "n"
+    ],
+    [
+      0.09262,
+      "s"
+    ],
+    [
+      0.116103,
+      "i"
+    ],
+    [
+      0.158541,
+      "b"
+    ],
+    [
+      0.093703,
+      "l"
+    ],
+    [
+      0.14046,
+      "\u0007e"
+    ],
+    [
+      0.759146,
+      " "
+    ],
+    [
+      0.372673,
+      "\b\u001b[K"
+    ],
+    [
+      0.236741,
+      "-"
+    ],
+    [
+      0.213193,
+      "p"
+    ],
+    [
+      0.17035,
+      "\u0007"
+    ],
+    [
+      0.822188,
+      "l"
+    ],
+    [
+      0.106996,
+      "aybook "
+    ],
+    [
+      0.806383,
+      "-"
+    ],
+    [
+      0.244097,
+      "i"
+    ],
+    [
+      0.182785,
+      " "
+    ],
+    [
+      0.203948,
+      "i"
+    ],
+    [
+      0.20476,
+      "n"
+    ],
+    [
+      0.140465,
+      "e"
+    ],
+    [
+      0.336044,
+      "\b\u001b[K"
+    ],
+    [
+      0.162922,
+      "v"
+    ],
+    [
+      0.101677,
+      "e"
+    ],
+    [
+      0.228399,
+      "ntory "
+    ],
+    [
+      2.056951,
+      "t"
+    ],
+    [
+      0.0615,
+      "e"
+    ],
+    [
+      0.227843,
+      "\u0007sting."
+    ],
+    [
+      1.275355,
+      "y"
+    ],
+    [
+      0.148228,
+      "ml "
+    ],
+    [
+      3.916806,
+      "\r\n"
+    ],
+    [
+      0.351618,
+      "\r\nPLAY [Common tasks to all servers] *********************************************\r\n"
+    ],
+    [
+      0.024463,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.642086,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.025825,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.001891,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002905,
+      "\r\nTASK [example.epel : Install EPEL repo.] ***************************************\r\n"
+    ],
+    [
+      5.101864,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.266921,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      4.642138,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.003074,
+      "\r\nTASK [example.epel : Import EPEL GPG key.] *************************************\r\n"
+    ],
+    [
+      0.725291,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.109792,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005385,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.002866,
+      "\r\nTASK [example.common : Install ntp] ********************************************\r\n"
+    ],
+    [
+      39.679607,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      4.207129,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      5.746707,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.0031,
+      "\r\nTASK [example.common : Install common dependencies] ****************************\r\n"
+    ],
+    [
+      0.53712,
+      "\u001b[0;32mok: [m1] => (item=[u'libselinux-python', u'libsemanage-python', u'firewalld'])\u001b[0m\r\n"
+    ],
+    [
+      0.016246,
+      "\u001b[0;32mok: [m2] => (item=[u'libselinux-python', u'libsemanage-python', u'firewalld'])\u001b[0m\r\n"
+    ],
+    [
+      0.050238,
+      "\u001b[0;32mok: [m3] => (item=[u'libselinux-python', u'libsemanage-python', u'firewalld'])\u001b[0m\r\n"
+    ],
+    [
+      0.003158,
+      "\r\nTASK [example.common : Configure ntp file] *************************************\r\n"
+    ],
+    [
+      0.872522,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.020277,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003009,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.003597,
+      "\r\nTASK [example.common : Start the ntp service] **********************************\r\n"
+    ],
+    [
+      0.597328,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.002117,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.026605,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n\r\nRUNNING HANDLER [example.common : restart ntp] *********************************\r\n"
+    ],
+    [
+      0.385222,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.032736,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.011662,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.003637,
+      "\r\nPLAY [Configure database servers] **********************************************\r\n"
+    ],
+    [
+      0.006344,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.269948,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002768,
+      "\r\nTASK [example.mariadb : Install MariaDB package] *******************************\r\n"
+    ],
+    [
+      20.655101,
+      "\u001b[0;33mchanged: [m3] => (item=[u'mariadb-server', u'MySQL-python'])\u001b[0m\r\n"
+    ],
+    [
+      0.002774,
+      "\r\nTASK [example.mariadb : Configure SELinux to start mysql on any port] **********\r\n"
+    ],
+    [
+      0.684089,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002603,
+      "\r\nTASK [example.mariadb : Create Mysql configuration file] ***********************\r\n"
+    ],
+    [
+      0.384449,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002605,
+      "\r\nTASK [example.mariadb : Create MariaDB log file] *******************************\r\n"
+    ],
+    [
+      0.266598,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.004112,
+      "\r\nTASK [example.mariadb : Create MariaDB PID directory] **************************\r\n"
+    ],
+    [
+      0.178693,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.004127,
+      "\r\nTASK [example.mariadb : Start MariaDB Service] *********************************\r\n"
+    ],
+    [
+      2.540194,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002716,
+      "\r\nTASK [example.mariadb : Start firewalld] ***************************************\r\n"
+    ],
+    [
+      0.555438,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.004608,
+      "\r\nTASK [example.mariadb : insert firewalld rule] *********************************\r\n"
+    ],
+    [
+      0.811491,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002831,
+      "\r\nTASK [example.mariadb : Create Application Database] ***************************\r\n"
+    ],
+    [
+      0.300697,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002815,
+      "\r\nTASK [example.mariadb : Create Application DB User] ****************************\r\n"
+    ],
+    [
+      0.304022,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n\r\nRUNNING HANDLER [example.mariadb : restart mariadb] ****************************\r\n"
+    ],
+    [
+      3.171453,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.003773,
+      "\r\nPLAY [Configure webservers] ****************************************************\r\n"
+    ],
+    [
+      0.012647,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.395078,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.0027,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003488,
+      "\r\nTASK [geerlingguy.apache : Include OS-specific variables.] *********************\r\n"
+    ],
+    [
+      0.07012,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005168,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003562,
+      "\r\nTASK [geerlingguy.apache : Define apache_packages.] ****************************\r\n"
+    ],
+    [
+      0.083432,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005579,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003246,
+      "\r\nTASK [geerlingguy.apache : include] ********************************************\r\n"
+    ],
+    [
+      0.067663,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.apache/tasks/setup-RedHat.yml for m2, m1\u001b[0m\r\n"
+    ],
+    [
+      0.007878,
+      "\r\nTASK [geerlingguy.apache : Ensure Apache is installed on RHEL.] ****************\r\n"
+    ],
+    [
+      9.893203,
+      "\u001b[0;33mchanged: [m2] => (item=[u'httpd', u'httpd-devel', u'mod_ssl', u'openssh'])\u001b[0m\r\n"
+    ],
+    [
+      9.652345,
+      "\u001b[0;33mchanged: [m1] => (item=[u'httpd', u'httpd-devel', u'mod_ssl', u'openssh'])\u001b[0m\r\n"
+    ],
+    [
+      0.003572,
+      "\r\nTASK [geerlingguy.apache : Get installed version of Apache.] *******************\r\n"
+    ],
+    [
+      0.018949,
+      "\u001b[0;35m[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..\r\nThis feature will be removed in version 2.4. Deprecation warnings can \r\nbe disabled by setting deprecation_warnings=False in ansible.cfg.\u001b[0m\r\n"
+    ],
+    [
+      0.020012,
+      "\u001b[0;35m[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..\r\nThis feature will be removed in version 2.4. Deprecation warnings can \r\nbe disabled by setting deprecation_warnings=False in ansible.cfg.\u001b[0m\r\n"
+    ],
+    [
+      0.354927,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.007449,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003351,
+      "\r\nTASK [geerlingguy.apache : Create apache_version variable.] ********************\r\n"
+    ],
+    [
+      0.06865,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002345,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003241,
+      "\r\nTASK [geerlingguy.apache : include_vars] ***************************************\r\n"
+    ],
+    [
+      0.064467,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002142,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003256,
+      "\r\nTASK [geerlingguy.apache : include_vars] ***************************************\r\n"
+    ],
+    [
+      0.077412,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005221,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003603,
+      "\r\nTASK [geerlingguy.apache : include] ********************************************\r\n"
+    ],
+    [
+      0.068942,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.apache/tasks/configure-RedHat.yml for m1, m2\u001b[0m\r\n"
+    ],
+    [
+      0.010132,
+      "\r\nTASK [geerlingguy.apache : Configure Apache.] **********************************\r\n"
+    ],
+    [
+      0.400137,
+      "\u001b[0;32mok: [m2] => (item={u'regexp': u'^Listen ', u'line': u'Listen 80'})\u001b[0m\r\n"
+    ],
+    [
+      0.003681,
+      "\u001b[0;32mok: [m1] => (item={u'regexp': u'^Listen ', u'line': u'Listen 80'})\u001b[0m\r\n"
+    ],
+    [
+      0.003216,
+      "\r\nTASK [geerlingguy.apache : Check whether certificates defined in vhosts exist.] \r\n"
+    ],
+    [
+      0.060728,
+      "\r\nTASK [geerlingguy.apache : Add apache vhosts configuration.] *******************\r\n"
+    ],
+    [
+      0.531503,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.00282,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003144,
+      "\r\nTASK [geerlingguy.apache : Ensure Apache has selected state and enabled on boot.] ***\r\n"
+    ],
+    [
+      0.40912,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.014712,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003269,
+      "\r\nTASK [geerlingguy.php : Include OS-specific variables.] ************************\r\n"
+    ],
+    [
+      0.071569,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002088,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003187,
+      "\r\nTASK [geerlingguy.php : Define php_packages.] **********************************\r\n"
+    ],
+    [
+      0.057934,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002268,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003208,
+      "\r\nTASK [geerlingguy.php : Define extra php_packages.] ****************************\r\n"
+    ],
+    [
+      0.058521,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002091,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003223,
+      "\r\nTASK [geerlingguy.php : Define php_webserver_daemon.] **************************\r\n"
+    ],
+    [
+      0.068918,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005849,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003164,
+      "\r\nTASK [geerlingguy.php : Define php_conf_paths.] ********************************\r\n"
+    ],
+    [
+      0.068635,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.004201,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003098,
+      "\r\nTASK [geerlingguy.php : Define php_extension_conf_paths.] **********************\r\n"
+    ],
+    [
+      0.072211,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002311,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003282,
+      "\r\nTASK [geerlingguy.php : Define php_apc_conf_filename.] *************************\r\n"
+    ],
+    [
+      0.069257,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002191,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003195,
+      "\r\nTASK [geerlingguy.php : Define php_opcache_conf_filename (Ubuntu 16.04).] ******\r\n"
+    ],
+    [
+      0.060221,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002102,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003087,
+      "\r\nTASK [geerlingguy.php : Define php_opcache_conf_filename.] *********************\r\n"
+    ],
+    [
+      0.069228,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.004189,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003159,
+      "\r\nTASK [geerlingguy.php : Define php_fpm_conf_path.] *****************************\r\n"
+    ],
+    [
+      0.070202,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002278,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003064,
+      "\r\nTASK [geerlingguy.php : include] ***********************************************\r\n"
+    ],
+    [
+      0.076797,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.php/tasks/setup-RedHat.yml for m1, m2\u001b[0m\r\n"
+    ],
+    [
+      0.0111,
+      "\r\nTASK [geerlingguy.php : Ensure PHP packages are installed.] ********************\r\n"
+    ],
+    [
+      41.709986,
+      "\u001b[0;33mchanged: [m2] => (item=[u'php', u'php-cli', u'php-common', u'php-devel', u'php-fpm', u'php-gd', u'php-imap', u'php-ldap', u'php-mbstring', u'php-opcache', u'php-pdo', u'php-pear', u'php-pecl-apcu', u'php-xml', u'php-xmlrpc', u'php-mysql'])\u001b[0m\r\n"
+    ],
+    [
+      1.15657,
+      "\u001b[0;33mchanged: [m1] => (item=[u'php', u'php-cli', u'php-common', u'php-devel', u'php-fpm', u'php-gd', u'php-imap', u'php-ldap', u'php-mbstring', u'php-opcache', u'php-pdo', u'php-pear', u'php-pecl-apcu', u'php-xml', u'php-xmlrpc', u'php-mysql'])\u001b[0m\r\n"
+    ],
+    [
+      0.003171,
+      "\r\nTASK [geerlingguy.php : include] ***********************************************\r\n"
+    ],
+    [
+      0.066819,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002302,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003436,
+      "\r\nTASK [geerlingguy.php : include] ***********************************************\r\n"
+    ],
+    [
+      0.060262,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002148,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003111,
+      "\r\nTASK [geerlingguy.php : include] ***********************************************\r\n"
+    ],
+    [
+      0.033628,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.php/tasks/configure.yml for m1, m2\u001b[0m\r\n"
+    ],
+    [
+      0.013469,
+      "\r\nTASK [geerlingguy.php : Ensure configuration directories exist.] ***************\r\n"
+    ],
+    [
+      0.309914,
+      "\u001b[0;32mok: [m2] => (item=/etc)\u001b[0m\r\n"
+    ],
+    [
+      0.022843,
+      "\u001b[0;32mok: [m1] => (item=/etc)\u001b[0m\r\n"
+    ],
+    [
+      0.177859,
+      "\u001b[0;32mok: [m2] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.017001,
+      "\u001b[0;32mok: [m1] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.003185,
+      "\r\nTASK [geerlingguy.php : Place PHP configuration file in place.] ****************\r\n"
+    ],
+    [
+      0.53554,
+      "\u001b[0;33mchanged: [m1] => (item=/etc)\u001b[0m\r\n"
+    ],
+    [
+      0.012204,
+      "\u001b[0;33mchanged: [m2] => (item=/etc)\u001b[0m\r\n"
+    ],
+    [
+      0.003159,
+      "\r\nTASK [geerlingguy.php : include] ***********************************************\r\n"
+    ],
+    [
+      0.038869,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.php/tasks/configure-apcu.yml for m2, m1\u001b[0m\r\n"
+    ],
+    [
+      0.017929,
+      "\r\nTASK [geerlingguy.php : Check for existing APCu config files.] *****************\r\n"
+    ],
+    [
+      0.384292,
+      "\u001b[0;32mok: [m1] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.002188,
+      "\u001b[0;32mok: [m2] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.003094,
+      "\r\nTASK [geerlingguy.php : Remove any non-role-supplied APCu config files.] *******\r\n"
+    ],
+    [
+      0.311462,
+      "\u001b[0;33mchanged: [m2] => (item=({u'_ansible_parsed': True, u'changed': False, u'_ansible_no_log': False, u'_ansible_item_result': True, u'item': u'/etc/php.d', u'examined': 28, u'msg': u'', u'invocation': {u'module_name': u'find', u'module_args': {u'paths': [u'/etc/php.d'], u'file_type': u'file', u'age': None, u'contains': u'extension(\\\\s+)?=(\\\\s+)?apc[u]?\\\\.so', u'recurse': False, u'age_stamp': u'mtime', u'patterns': [u'*'], u'get_checksum': False, u'use_regex': False, u'follow': False, u'hidden': False, u'size': None}}, u'matched': 1}, {u'uid': 0, u'woth': False, u'mtime': 1461157351.0, u'inode': 831138, u'isgid': False, u'size': 2435, u'roth': True, u'isuid': False, u'isreg': True, u'gid': 0, u'ischr': False, u'wusr': True, u'xoth': False, u'rusr': True, u'nlink': 1, u'issock': False, u'rgrp': True, u'path': u'/etc/php.d/apcu.ini', u'xusr': False, u'atime': 1490455632.7661586, u'isdir': False, u'ctime': 1490455632.739145, u'wgrp': False, u'xgrp': False, u'dev': 64768, u'isblk': False, u'isfifo': False, u'mo"
+    ],
+    [
+      1.9e-05,
+      "de': u'0644', u'islnk': False}))\u001b[0m\r\n"
+    ],
+    [
+      0.002281,
+      "\u001b[0;33mchanged: [m1] => (item=({u'_ansible_parsed': True, u'changed': False, u'_ansible_no_log': False, u'_ansible_item_result': True, u'item': u'/etc/php.d', u'examined': 28, u'msg': u'', u'invocation': {u'module_name': u'find', u'module_args': {u'paths': [u'/etc/php.d'], u'file_type': u'file', u'age': None, u'contains': u'extension(\\\\s+)?=(\\\\s+)?apc[u]?\\\\.so', u'recurse': False, u'age_stamp': u'mtime', u'patterns': [u'*'], u'get_checksum': False, u'use_regex': False, u'follow': False, u'hidden': False, u'size': None}}, u'matched': 1}, {u'uid': 0, u'woth': False, u'mtime': 1461157351.0, u'inode': 758145, u'isgid': False, u'size': 2435, u'roth': True, u'isuid': False, u'isreg': True, u'gid': 0, u'ischr': False, u'wusr': True, u'xoth': False, u'rusr': True, u'nlink': 1, u'issock': False, u'rgrp': True, u'path': u'/etc/php.d/apcu.ini', u'xusr': False, u'atime': 1490455633.05129, u'isdir': False, u'ctime': 1490455633.0282786, u'wgrp': False, u'xgrp': False, u'dev': 64768, u'isblk': False, u'isfifo': False, u'mod"
+    ],
+    [
+      1.8e-05,
+      "e': u'0644', u'islnk': False}))\u001b[0m\r\n"
+    ],
+    [
+      0.003287,
+      "\r\nTASK [geerlingguy.php : Ensure APCu config file is present.] *******************\r\n"
+    ],
+    [
+      0.525578,
+      "\u001b[0;33mchanged: [m2] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.00227,
+      "\u001b[0;33mchanged: [m1] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.003265,
+      "\r\nTASK [geerlingguy.php : Remove APCu config file if APC is disabled.] ***********\r\n"
+    ],
+    [
+      0.06891,
+      "\u001b[0;36mskipping: [m2] => (item=/etc/php.d) \u001b[0m\r\n"
+    ],
+    [
+      0.002153,
+      "\u001b[0;36mskipping: [m1] => (item=/etc/php.d) \u001b[0m\r\n"
+    ],
+    [
+      0.003218,
+      "\r\nTASK [geerlingguy.php : include] ***********************************************\r\n"
+    ],
+    [
+      0.040332,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.php/tasks/configure-opcache.yml for m1, m2\u001b[0m\r\n"
+    ],
+    [
+      0.023784,
+      "\r\nTASK [geerlingguy.php : Check for existing OpCache config files.] **************\r\n"
+    ],
+    [
+      0.302275,
+      "\u001b[0;32mok: [m2] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.002269,
+      "\u001b[0;32mok: [m1] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.003273,
+      "\r\nTASK [geerlingguy.php : Remove any non-role-supplied OpCache config files.] ****\r\n"
+    ],
+    [
+      0.116731,
+      "\r\nTASK [geerlingguy.php : Ensure OpCache config file is present.] ****************\r\n"
+    ],
+    [
+      0.595273,
+      "\u001b[0;33mchanged: [m1] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.016048,
+      "\u001b[0;33mchanged: [m2] => (item=/etc/php.d)\u001b[0m\r\n"
+    ],
+    [
+      0.003187,
+      "\r\nTASK [geerlingguy.php : Remove OpCache config file if OpCache is disabled.] ****\r\n"
+    ],
+    [
+      0.067764,
+      "\u001b[0;36mskipping: [m2] => (item=/etc/php.d) \u001b[0m\r\n"
+    ],
+    [
+      0.002157,
+      "\u001b[0;36mskipping: [m1] => (item=/etc/php.d) \u001b[0m\r\n"
+    ],
+    [
+      0.003199,
+      "\r\nTASK [geerlingguy.php : include] ***********************************************\r\n"
+    ],
+    [
+      0.046808,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.php/tasks/configure-fpm.yml for m1, m2\u001b[0m\r\n"
+    ],
+    [
+      0.034027,
+      "\r\nTASK [geerlingguy.php : Define php_fpm_daemon.] ********************************\r\n"
+    ],
+    [
+      0.070385,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002477,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003388,
+      "\r\nTASK [geerlingguy.php : Define php_fpm_pool_conf_path.] ************************\r\n"
+    ],
+    [
+      0.066985,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005699,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003249,
+      "\r\nTASK [geerlingguy.php : Define php_fpm_pool_user.] *****************************\r\n"
+    ],
+    [
+      0.070793,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.00455,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003331,
+      "\r\nTASK [geerlingguy.php : Define php_fpm_pool_group.] ****************************\r\n"
+    ],
+    [
+      0.066793,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.007303,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003292,
+      "\r\nTASK [geerlingguy.php : Stat php_fpm_pool_conf_path] ***************************\r\n"
+    ],
+    [
+      0.259904,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.014626,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.00343,
+      "\r\nTASK [geerlingguy.php : Ensure the default pool directory exists.] *************\r\n"
+    ],
+    [
+      0.065564,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002289,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003433,
+      "\r\nTASK [geerlingguy.php : Ensure the default pool exists.] ***********************\r\n"
+    ],
+    [
+      0.477104,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.012938,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003317,
+      "\r\nTASK [geerlingguy.php : Configure php-fpm pool (if enabled).] ******************\r\n"
+    ],
+    [
+      0.086213,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^pm\\\\.max_spare_servers.?=.+$', u'line': u'pm.max_spare_servers = 5'}) \u001b[0m\r\n"
+    ],
+    [
+      0.003035,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^pm\\\\.max_spare_servers.?=.+$', u'line': u'pm.max_spare_servers = 5'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001511,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^pm\\\\.min_spare_servers.?=.+$', u'line': u'pm.min_spare_servers = 5'}) \u001b[0m\r\n"
+    ],
+    [
+      0.00159,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^pm\\\\.start_servers.?=.+$', u'line': u'pm.start_servers = 5'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001523,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^pm\\\\.max_children.?=.+$', u'line': u'pm.max_children = 50'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001538,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^listen\\\\.allowed_clients.?=.+$', u'line': u'listen.allowed_clients = 127.0.0.1'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001555,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^listen.?=.+$', u'line': u'listen = 127.0.0.1:9000'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001734,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^group.?=.+$', u'line': u'group = apache'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001554,
+      "\u001b[0;36mskipping: [m2] => (item={u'regexp': u'^user.?=.+$', u'line': u'user = apache'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001614,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^pm\\\\.min_spare_servers.?=.+$', u'line': u'pm.min_spare_servers = 5'}) \u001b[0m\r\n"
+    ],
+    [
+      0.00157,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^pm\\\\.start_servers.?=.+$', u'line': u'pm.start_servers = 5'}) \u001b[0m\r\n"
+    ],
+    [
+      0.002383,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^pm\\\\.max_children.?=.+$', u'line': u'pm.max_children = 50'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001535,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^listen\\\\.allowed_clients.?=.+$', u'line': u'listen.allowed_clients = 127.0.0.1'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001592,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^listen.?=.+$', u'line': u'listen = 127.0.0.1:9000'}) \u001b[0m\r\n"
+    ],
+    [
+      0.001486,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^group.?=.+$', u'line': u'group = apache'}) \u001b[0m\r\n"
+    ],
+    [
+      0.002197,
+      "\u001b[0;36mskipping: [m1] => (item={u'regexp': u'^user.?=.+$', u'line': u'user = apache'}) \u001b[0m\r\n"
+    ],
+    [
+      0.003851,
+      "\r\nTASK [geerlingguy.php : Ensure php-fpm is started and enabled at boot (if configured).] ***\r\n"
+    ],
+    [
+      0.018028,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.002392,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.003284,
+      "\r\nTASK [geerlingguy.apache : Include OS-specific variables.] *********************\r\n"
+    ],
+    [
+      0.069116,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005465,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003252,
+      "\r\nTASK [geerlingguy.apache : Define apache_packages.] ****************************\r\n"
+    ],
+    [
+      0.056919,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.00388,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003134,
+      "\r\nTASK [geerlingguy.apache : include] ********************************************\r\n"
+    ],
+    [
+      0.06576,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.apache/tasks/setup-RedHat.yml for m1, m2\u001b[0m\r\n"
+    ],
+    [
+      0.007985,
+      "\r\nTASK [geerlingguy.apache : Ensure Apache is installed on RHEL.] ****************\r\n"
+    ],
+    [
+      0.441662,
+      "\u001b[0;32mok: [m1] => (item=[u'httpd', u'httpd-devel', u'mod_ssl', u'openssh'])\u001b[0m\r\n"
+    ],
+    [
+      0.011512,
+      "\u001b[0;32mok: [m2] => (item=[u'httpd', u'httpd-devel', u'mod_ssl', u'openssh'])\u001b[0m\r\n"
+    ],
+    [
+      0.003661,
+      "\r\nTASK [geerlingguy.apache : Get installed version of Apache.] *******************\r\n"
+    ],
+    [
+      0.010772,
+      "\u001b[0;35m[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..\r\nThis feature will be removed in version 2.4. Deprecation warnings can \r\nbe disabled by setting deprecation_warnings=False in ansible.cfg.\u001b[0m\r\n"
+    ],
+    [
+      0.030999,
+      "\u001b[0;35m[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..\r\nThis feature will be removed in version 2.4. Deprecation warnings can \r\nbe disabled by setting deprecation_warnings=False in ansible.cfg.\u001b[0m\r\n"
+    ],
+    [
+      0.243208,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.010197,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.00346,
+      "\r\nTASK [geerlingguy.apache : Create apache_version variable.] ********************\r\n"
+    ],
+    [
+      0.068752,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002173,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003457,
+      "\r\nTASK [geerlingguy.apache : include_vars] ***************************************\r\n"
+    ],
+    [
+      0.061029,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.002251,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.003152,
+      "\r\nTASK [geerlingguy.apache : include_vars] ***************************************\r\n"
+    ],
+    [
+      0.076138,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005368,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003166,
+      "\r\nTASK [geerlingguy.apache : include] ********************************************\r\n"
+    ],
+    [
+      0.068384,
+      "\u001b[0;36mincluded: /vagrant/roles/geerlingguy.apache/tasks/configure-RedHat.yml for m1, m2\u001b[0m\r\n"
+    ],
+    [
+      0.009975,
+      "\r\nTASK [geerlingguy.apache : Configure Apache.] **********************************\r\n"
+    ],
+    [
+      0.274844,
+      "\u001b[0;32mok: [m1] => (item={u'regexp': u'^Listen ', u'line': u'Listen 80'})\u001b[0m\r\n"
+    ],
+    [
+      0.012827,
+      "\u001b[0;32mok: [m2] => (item={u'regexp': u'^Listen ', u'line': u'Listen 80'})\u001b[0m\r\n"
+    ],
+    [
+      0.00352,
+      "\r\nTASK [geerlingguy.apache : Check whether certificates defined in vhosts exist.] \r\n"
+    ],
+    [
+      0.060494,
+      "\r\nTASK [geerlingguy.apache : Add apache vhosts configuration.] *******************\r\n"
+    ],
+    [
+      0.500245,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.015388,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003495,
+      "\r\nTASK [geerlingguy.apache : Ensure Apache has selected state and enabled on boot.] ***\r\n"
+    ],
+    [
+      0.294921,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002558,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003571,
+      "\r\nTASK [geerlingguy.apache-php-fpm : Enable mod_proxy_fcgi.] *********************\r\n"
+    ],
+    [
+      0.078938,
+      "\u001b[0;36mskipping: [m2] => (item=proxy_fcgi.load) \u001b[0m\r\n"
+    ],
+    [
+      0.001498,
+      "\u001b[0;36mskipping: [m2] => (item=proxy.load) \u001b[0m\r\n"
+    ],
+    [
+      0.00155,
+      "\u001b[0;36mskipping: [m1] => (item=proxy_fcgi.load) \u001b[0m\r\n"
+    ],
+    [
+      0.002207,
+      "\u001b[0;36mskipping: [m1] => (item=proxy.load) \u001b[0m\r\n"
+    ],
+    [
+      0.003314,
+      "\r\nTASK [example.myapp : Creates the index.php file] ******************************\r\n"
+    ],
+    [
+      0.537084,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.006245,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n\r\nRUNNING HANDLER [geerlingguy.apache : restart apache] **************************\r\n"
+    ],
+    [
+      1.437164,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.001778,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n\r\nRUNNING HANDLER [geerlingguy.php : restart webserver] **************************\r\n"
+    ],
+    [
+      1.400727,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.003539,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n\r\nRUNNING HANDLER [geerlingguy.php : restart php-fpm] ****************************\r\n"
+    ],
+    [
+      0.021384,
+      "\u001b[0;36mskipping: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.005219,
+      "\u001b[0;36mskipping: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.003465,
+      "\r\nPLAY [Configure haproxy] *******************************************************\r\n"
+    ],
+    [
+      0.005844,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.454753,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002893,
+      "\r\nTASK [geerlingguy.haproxy : Ensure HAProxy is installed (Debian).] *************\r\n"
+    ],
+    [
+      0.032572,
+      "\u001b[0;36mskipping: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.003001,
+      "\r\nTASK [geerlingguy.haproxy : Ensure HAProxy is enabled (so init script will start it on Debian).] ***\r\n"
+    ],
+    [
+      0.030765,
+      "\u001b[0;36mskipping: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.00302,
+      "\r\nTASK [geerlingguy.haproxy : Ensure HAProxy is installed (RedHat).] *************\r\n"
+    ],
+    [
+      2.331058,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002975,
+      "\r\nTASK [geerlingguy.haproxy : Get HAProxy version.] ******************************\r\n"
+    ],
+    [
+      0.009152,
+      "\u001b[0;35m[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..\r\nThis feature will be removed in version 2.4. Deprecation warnings can \r\nbe disabled by setting deprecation_warnings=False in ansible.cfg.\u001b[0m\r\n"
+    ],
+    [
+      0.181003,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002831,
+      "\r\nTASK [geerlingguy.haproxy : Set HAProxy version.] ******************************\r\n"
+    ],
+    [
+      0.037446,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002851,
+      "\r\nTASK [geerlingguy.haproxy : Copy HAProxy configuration in place.] **************\r\n"
+    ],
+    [
+      0.427389,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002851,
+      "\r\nTASK [geerlingguy.haproxy : Ensure HAProxy is started and enabled on boot.] ****\r\n"
+    ],
+    [
+      0.281376,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.004178,
+      "\r\nTASK [Open http port on firewall] **********************************************\r\n"
+    ],
+    [
+      0.292557,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n\r\nRUNNING HANDLER [geerlingguy.haproxy : restart haproxy] ************************\r\n"
+    ],
+    [
+      0.224337,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.001318,
+      "\r\nPLAY RECAP *********************************************************************\r\n\u001b[0;33mm1\u001b[0m                         : \u001b[0;32mok=59  \u001b[0m \u001b[0;33mchanged=17  \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;33mm2\u001b[0m                         : \u001b[0;32mok=59  \u001b[0m \u001b[0;33mchanged=17  \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;33mm3\u001b[0m                         : \u001b[0;32mok=28  \u001b[0m \u001b[0;33mchanged=22  \u001b[0m unreachable=0    failed=0   \r\n\r\n"
+    ],
+    [
+      0.028532,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      203.155617,
+      "c"
+    ],
+    [
+      0.10949,
+      "u"
+    ],
+    [
+      0.383773,
+      "\b\u001b[K"
+    ],
+    [
+      0.181442,
+      "\b\u001b[K"
+    ],
+    [
+      0.181459,
+      "\u0007"
+    ],
+    [
+      1.175452,
+      "c"
+    ],
+    [
+      0.126342,
+      "u"
+    ],
+    [
+      0.109228,
+      "r"
+    ],
+    [
+      0.119191,
+      "l"
+    ],
+    [
+      0.103601,
+      " "
+    ],
+    [
+      1.119674,
+      "h"
+    ],
+    [
+      0.125005,
+      "t"
+    ],
+    [
+      0.173374,
+      "t"
+    ],
+    [
+      0.056778,
+      "p"
+    ],
+    [
+      0.450738,
+      ":"
+    ],
+    [
+      0.31218,
+      "/"
+    ],
+    [
+      0.165333,
+      "/"
+    ],
+    [
+      1.491911,
+      "m"
+    ],
+    [
+      0.547231,
+      "3"
+    ],
+    [
+      2.259501,
+      "\r\n"
+    ],
+    [
+      0.015083,
+      "curl: (7) Failed connect to m3:80; No route to host\r\n\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      24.753102,
+      "logout\r\nConnection to 127.0.0.1 closed.\r\r\n"
+    ],
+    [
+      0.003576,
+      "\u001b]777;notify;Command completed;vagrant ssh ansiblecm \u0007\u001b]0;dmorales@rj-dvp0007:~/src/talks/workshop-ansible\u0007\u001b]7;file://rj-dvp0007.stone.local/home/dmorales/src/talks/workshop-ansible\u0007"
+    ],
+    [
+      0.003196,
+      "~/src/talks/workshop-ansible\u001b[33;2m(master)\u001b[0m$ "
+    ]
+  ],
+  "width": 150,
+  "title": null,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm-256color"
+  },
+  "command": null,
+  "height": 36,
+  "duration": 435.656185,
+  "version": 1
+}

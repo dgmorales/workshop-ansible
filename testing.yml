@@ -35,3 +35,9 @@
         address: "{{ hostvars['m2'].ansible_enp0s8.ipv4.address }}:80"
   roles:
     - geerlingguy.haproxy
+  tasks:
+    - name: Open http port on firewall
+      firewalld:
+        service: https
+        permanent: true
+        state: enabled

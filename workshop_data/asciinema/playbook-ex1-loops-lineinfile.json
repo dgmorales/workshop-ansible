@@ -1,0 +1,1634 @@
+{
+  "stdout": [
+    [
+      0.06901,
+      "\u001b]777;notify;Command completed;vagrant ssh ansiblecm \u0007\u001b]0;dmorales@rj-dvp0007:~/src/talks/workshop-ansible\u0007\u001b]7;file://rj-dvp0007.stone.local/home/dmorales/src/talks/workshop-ansible\u0007"
+    ],
+    [
+      0.002624,
+      "~/src/talks/workshop-ansible\u001b[33;2m(master)\u001b[0m$ "
+    ],
+    [
+      0.906793,
+      "vagrant ssh ansiblecm "
+    ],
+    [
+      0.817103,
+      "\r\n"
+    ],
+    [
+      1.350571,
+      "c"
+    ],
+    [
+      0.108207,
+      "d"
+    ],
+    [
+      0.093979,
+      "Last login: Sat Mar 25 14:17:56 2017 from 10.0.2.2\r\r\n"
+    ],
+    [
+      0.040012,
+      "cd \u001b]0;vagrant@ansiblecm:~\u0007\u001b[?1034h[vagrant@ansiblecm ~]$ cd "
+    ],
+    [
+      0.834116,
+      "/"
+    ],
+    [
+      0.080442,
+      "v"
+    ],
+    [
+      0.108264,
+      "a"
+    ],
+    [
+      0.173846,
+      "g"
+    ],
+    [
+      0.17362,
+      "r"
+    ],
+    [
+      0.053288,
+      "a"
+    ],
+    [
+      0.11954,
+      "n"
+    ],
+    [
+      0.092887,
+      "t"
+    ],
+    [
+      0.216076,
+      "\r\n"
+    ],
+    [
+      0.00022,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      2.34396,
+      "cd /vagrant"
+    ],
+    [
+      0.524275,
+      "\b\b\b\b\b\b\b\b\b\b\b\u001b[5Pssh m1"
+    ],
+    [
+      0.356848,
+      "\b\b\b\b\b\b\u001b[8@vagrant \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.372845,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\bansible-playbook -i inventory plays/ex1/package-file-service-template.yml"
+    ],
+    [
+      1.07201,
+      "\b\u001b[K"
+    ],
+    [
+      0.500049,
+      "\b\u001b[K"
+    ],
+    [
+      0.030142,
+      "\b\u001b[K"
+    ],
+    [
+      0.030109,
+      "\b\u001b[K"
+    ],
+    [
+      0.029932,
+      "\b\u001b[K"
+    ],
+    [
+      0.029729,
+      "\b\u001b[K"
+    ],
+    [
+      0.030663,
+      "\b\u001b[K"
+    ],
+    [
+      0.02948,
+      "\b\u001b[K"
+    ],
+    [
+      0.030066,
+      "\b\u001b[K"
+    ],
+    [
+      0.030094,
+      "\b\u001b[K"
+    ],
+    [
+      0.030215,
+      "\b\u001b[K"
+    ],
+    [
+      0.030222,
+      "\b\u001b[K"
+    ],
+    [
+      0.031094,
+      "\b\u001b[K"
+    ],
+    [
+      0.030212,
+      "\b\u001b[K"
+    ],
+    [
+      0.030453,
+      "\b\u001b[K"
+    ],
+    [
+      0.029976,
+      "\b\u001b[K"
+    ],
+    [
+      0.030058,
+      "\b\u001b[K"
+    ],
+    [
+      0.030413,
+      "\b\u001b[K"
+    ],
+    [
+      0.030682,
+      "\b\u001b[K"
+    ],
+    [
+      0.02913,
+      "\b\u001b[K"
+    ],
+    [
+      0.030806,
+      "\b\u001b[K"
+    ],
+    [
+      0.030197,
+      "\b\u001b[K"
+    ],
+    [
+      0.030381,
+      "\b\u001b[K"
+    ],
+    [
+      0.030526,
+      "\b\u001b[K"
+    ],
+    [
+      0.029303,
+      "\b\u001b[K"
+    ],
+    [
+      0.029919,
+      "\b\u001b[K"
+    ],
+    [
+      0.030121,
+      "\b\u001b[K"
+    ],
+    [
+      0.030003,
+      "\b\u001b[K"
+    ],
+    [
+      0.030155,
+      "\b\u001b[K"
+    ],
+    [
+      0.030009,
+      "\b\u001b[K"
+    ],
+    [
+      0.030375,
+      "\b\u001b[K"
+    ],
+    [
+      0.178442,
+      "\b\u001b[K"
+    ],
+    [
+      0.309131,
+      "\b\u001b[K"
+    ],
+    [
+      0.411814,
+      "l"
+    ],
+    [
+      0.149514,
+      "o"
+    ],
+    [
+      0.091786,
+      "op.yml "
+    ],
+    [
+      1.460521,
+      "\r\n"
+    ],
+    [
+      0.215853,
+      "\r\nPLAY [all] *********************************************************************\r\n"
+    ],
+    [
+      0.023196,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.840953,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.03264,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.017715,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.003018,
+      "\r\nTASK [create symlinks for our app] *********************************************\r\n"
+    ],
+    [
+      0.491026,
+      "\u001b[0;33mchanged: [m2] => (item=run)\u001b[0m\r\n"
+    ],
+    [
+      0.030522,
+      "\u001b[0;33mchanged: [m3] => (item=run)\u001b[0m\r\n"
+    ],
+    [
+      0.01768,
+      "\u001b[0;33mchanged: [m1] => (item=run)\u001b[0m\r\n"
+    ],
+    [
+      0.259289,
+      "\u001b[0;33mchanged: [m2] => (item=build)\u001b[0m\r\n"
+    ],
+    [
+      0.014848,
+      "\u001b[0;33mchanged: [m1] => (item=build)\u001b[0m\r\n"
+    ],
+    [
+      0.004729,
+      "\u001b[0;33mchanged: [m3] => (item=build)\u001b[0m\r\n"
+    ],
+    [
+      0.287481,
+      "\u001b[0;33mchanged: [m1] => (item=update)\u001b[0m\r\n"
+    ],
+    [
+      0.02708,
+      "\u001b[0;33mchanged: [m2] => (item=update)\u001b[0m\r\n"
+    ],
+    [
+      0.001905,
+      "\u001b[0;33mchanged: [m3] => (item=update)\u001b[0m\r\n"
+    ],
+    [
+      0.253255,
+      "\u001b[0;33mchanged: [m1] => (item=foo)\u001b[0m\r\n"
+    ],
+    [
+      0.014494,
+      "\u001b[0;33mchanged: [m2] => (item=foo)\u001b[0m\r\n"
+    ],
+    [
+      0.033286,
+      "\u001b[0;33mchanged: [m3] => (item=foo)\u001b[0m\r\n"
+    ],
+    [
+      0.000965,
+      "\r\nPLAY RECAP *********************************************************************\r\n\u001b[0;33mm1\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;33mm2\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;33mm3\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\r\n"
+    ],
+    [
+      0.024571,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      2.350088,
+      "ansible-playbook -i inventory plays/ex1/loop.yml "
+    ],
+    [
+      0.325149,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Ccd /vagrant\u001b[K"
+    ],
+    [
+      0.53224,
+      "\b\b\b\b\b\b\b\b\b\b\b\u001b[5Pssh m1"
+    ],
+    [
+      0.372735,
+      "\b\b\b\b\b\b\u001b[8@vagrant \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.316053,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\u001b[8P\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.219985,
+      "\r\n"
+    ],
+    [
+      0.063515,
+      "vagrant@m1's password: "
+    ],
+    [
+      1.533923,
+      "\r\n"
+    ],
+    [
+      0.099303,
+      "Last login: Sat Mar 25 14:21:48 2017 from 192.168.100.7\r\r\n"
+    ],
+    [
+      0.011216,
+      "\u001b]0;vagrant@m1:~\u0007\u001b[?1034h[vagrant@m1 ~]$ "
+    ],
+    [
+      0.568424,
+      "r"
+    ],
+    [
+      0.103099,
+      "m"
+    ],
+    [
+      0.182333,
+      " "
+    ],
+    [
+      0.759473,
+      "/"
+    ],
+    [
+      0.40668,
+      "u"
+    ],
+    [
+      0.092032,
+      "s"
+    ],
+    [
+      0.125677,
+      "r"
+    ],
+    [
+      0.148948,
+      "/"
+    ],
+    [
+      0.567089,
+      "l"
+    ],
+    [
+      0.173714,
+      "o"
+    ],
+    [
+      0.068517,
+      "c"
+    ],
+    [
+      0.060789,
+      "a"
+    ],
+    [
+      0.124521,
+      "l"
+    ],
+    [
+      0.117851,
+      "/"
+    ],
+    [
+      0.644255,
+      "s"
+    ],
+    [
+      0.384071,
+      "\b\u001b[K"
+    ],
+    [
+      0.092252,
+      "b"
+    ],
+    [
+      0.157357,
+      "i"
+    ],
+    [
+      0.147311,
+      "n/"
+    ],
+    [
+      0.300878,
+      "\u0007myapp-"
+    ],
+    [
+      0.699679,
+      "\u0007"
+    ],
+    [
+      1.036083,
+      "b"
+    ],
+    [
+      0.125664,
+      "u"
+    ],
+    [
+      0.155785,
+      "ild "
+    ],
+    [
+      1.007034,
+      "\r\n"
+    ],
+    [
+      0.000823,
+      "rm: cannot remove ‘/usr/local/bin/myapp-build’: Permission denied\r\n\u001b]0;vagrant@m1:~\u0007[vagrant@m1 ~]$ "
+    ],
+    [
+      1.083401,
+      "rm /usr/local/bin/myapp-build "
+    ],
+    [
+      1.224808,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.503309,
+      "\u001b[1@s"
+    ],
+    [
+      0.158989,
+      "\u001b[1@u"
+    ],
+    [
+      0.077619,
+      "\u001b[1@d"
+    ],
+    [
+      0.127436,
+      "\u001b[1@o"
+    ],
+    [
+      0.070887,
+      "\u001b[1@ "
+    ],
+    [
+      0.435844,
+      "\r\n"
+    ],
+    [
+      0.010183,
+      "\u001b]0;vagrant@m1:~\u0007[vagrant@m1 ~]$ "
+    ],
+    [
+      1.970295,
+      "logout\r\nConnection to m1 closed.\r\r\n\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      0.718174,
+      "ssh m1"
+    ],
+    [
+      1.264587,
+      "\b\b\b\b\b\b\u001b[K"
+    ],
+    [
+      0.788771,
+      "ssh m1"
+    ],
+    [
+      0.181381,
+      "\b\b\b\b\b\bansible-playbook -i inventory plays/ex1/loop.yml "
+    ],
+    [
+      0.896609,
+      "\r\n"
+    ],
+    [
+      0.228891,
+      "\r\nPLAY [all] *********************************************************************\r\n"
+    ],
+    [
+      0.02405,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.603729,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.020641,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.037254,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.002746,
+      "\r\nTASK [create symlinks for our app] *********************************************\r\n"
+    ],
+    [
+      0.469374,
+      "\u001b[0;32mok: [m1] => (item=run)\u001b[0m\r\n"
+    ],
+    [
+      0.04208,
+      "\u001b[0;32mok: [m3] => (item=run)\u001b[0m\r\n"
+    ],
+    [
+      0.009094,
+      "\u001b[0;32mok: [m2] => (item=run)\u001b[0m\r\n"
+    ],
+    [
+      0.230077,
+      "\u001b[0;33mchanged: [m1] => (item=build)\u001b[0m\r\n"
+    ],
+    [
+      0.061852,
+      "\u001b[0;32mok: [m3] => (item=build)\u001b[0m\r\n"
+    ],
+    [
+      0.008079,
+      "\u001b[0;32mok: [m2] => (item=build)\u001b[0m\r\n"
+    ],
+    [
+      0.198486,
+      "\u001b[0;32mok: [m1] => (item=update)\u001b[0m\r\n"
+    ],
+    [
+      0.082301,
+      "\u001b[0;32mok: [m3] => (item=update)\u001b[0m\r\n"
+    ],
+    [
+      0.019989,
+      "\u001b[0;32mok: [m2] => (item=update)\u001b[0m\r\n"
+    ],
+    [
+      0.191717,
+      "\u001b[0;32mok: [m1] => (item=foo)\u001b[0m\r\n"
+    ],
+    [
+      0.054207,
+      "\u001b[0;32mok: [m3] => (item=foo)\u001b[0m\r\n"
+    ],
+    [
+      0.015244,
+      "\u001b[0;32mok: [m2] => (item=foo)\u001b[0m\r\n"
+    ],
+    [
+      0.001018,
+      "\r\nPLAY RECAP *********************************************************************\r\n\u001b[0;33mm1\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;32mm2\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m changed=0    unreachable=0    failed=0   \r\n\u001b[0;32mm3\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m changed=0    unreachable=0    failed=0   \r\n\r\n"
+    ],
+    [
+      0.02455,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      3.478769,
+      "ansible-playbook -i inventory plays/ex1/loop.yml "
+    ],
+    [
+      0.609475,
+      "\b\u001b[K"
+    ],
+    [
+      0.499991,
+      "\b\u001b[K"
+    ],
+    [
+      0.029958,
+      "\b\u001b[K"
+    ],
+    [
+      0.031035,
+      "\b\u001b[K"
+    ],
+    [
+      0.029971,
+      "\b\u001b[K"
+    ],
+    [
+      0.188431,
+      "\b\u001b[K"
+    ],
+    [
+      0.189403,
+      "\b\u001b[K"
+    ],
+    [
+      0.157404,
+      "\b\u001b[K"
+    ],
+    [
+      0.596158,
+      "\b\u001b[K"
+    ],
+    [
+      0.291717,
+      "l"
+    ],
+    [
+      0.292512,
+      "i"
+    ],
+    [
+      0.275594,
+      "\u0007"
+    ],
+    [
+      0.287812,
+      "\b\u001b[K"
+    ],
+    [
+      1.153305,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cssh m1\u001b[K"
+    ],
+    [
+      0.936578,
+      "\r\n"
+    ],
+    [
+      0.062922,
+      "vagrant@m1's password: "
+    ],
+    [
+      1.770618,
+      "\r\n"
+    ],
+    [
+      0.099617,
+      "Last login: Sat Mar 25 14:22:14 2017 from 192.168.100.7\r\r\n"
+    ],
+    [
+      0.011315,
+      "\u001b]0;vagrant@m1:~\u0007\u001b[?1034h[vagrant@m1 ~]$ "
+    ],
+    [
+      0.275528,
+      "v"
+    ],
+    [
+      0.101817,
+      "a"
+    ],
+    [
+      0.125551,
+      "t"
+    ],
+    [
+      0.089023,
+      " "
+    ],
+    [
+      0.523178,
+      "\b\u001b[K"
+    ],
+    [
+      0.165477,
+      "\b\u001b[K"
+    ],
+    [
+      0.141686,
+      "\b\u001b[K"
+    ],
+    [
+      0.165288,
+      "\b\u001b[K"
+    ],
+    [
+      0.157531,
+      "\u0007"
+    ],
+    [
+      0.13853,
+      "c"
+    ],
+    [
+      0.077727,
+      "a"
+    ],
+    [
+      0.149972,
+      "t"
+    ],
+    [
+      0.15209,
+      " "
+    ],
+    [
+      0.639385,
+      "/"
+    ],
+    [
+      0.040398,
+      "e"
+    ],
+    [
+      0.070118,
+      "t"
+    ],
+    [
+      0.219867,
+      "c"
+    ],
+    [
+      0.06151,
+      "/"
+    ],
+    [
+      0.676983,
+      "h"
+    ],
+    [
+      0.100331,
+      "os"
+    ],
+    [
+      0.164303,
+      "t"
+    ],
+    [
+      0.141593,
+      "s"
+    ],
+    [
+      0.543487,
+      "\r\n"
+    ],
+    [
+      0.000959,
+      "127.0.0.1\tm1.local\tm1\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1         localhost localhost.localdomain localhost6 localhost6.localdomain6\r\n\u001b]0;vagrant@m1:~\u0007[vagrant@m1 ~]$ "
+    ],
+    [
+      3.701783,
+      "logout\r\nConnection to m1 closed.\r\r\n\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      0.39891,
+      "ssh m1"
+    ],
+    [
+      0.205129,
+      "\b\b\b\b\b\bansible-playbook -i inventory plays/ex1/l"
+    ],
+    [
+      1.700343,
+      "i"
+    ],
+    [
+      0.10773,
+      "\u0007"
+    ],
+    [
+      0.431856,
+      "\b\u001b[K"
+    ],
+    [
+      0.165674,
+      "\b\u001b[K"
+    ],
+    [
+      0.212281,
+      "o"
+    ],
+    [
+      0.139281,
+      "neline.yml "
+    ],
+    [
+      1.022174,
+      "\r\n"
+    ],
+    [
+      0.229472,
+      "\r\nPLAY [lineinfile example] ******************************************************\r\n"
+    ],
+    [
+      0.0245,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.609677,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.038699,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.018088,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.004016,
+      "\r\nTASK [Add ansiblecm to /etc/hosts] *********************************************\r\n"
+    ],
+    [
+      0.4301,
+      "\u001b[0;33mchanged: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.001635,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.014446,
+      "\u001b[0;33mchanged: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.000931,
+      "\r\nPLAY RECAP *********************************************************************\r\n\u001b[0;33mm1\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;33mm2\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;33mm3\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\r\n"
+    ],
+    [
+      0.026491,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      1.615587,
+      "ansible-playbook -i inventory plays/ex1/oneline.yml "
+    ],
+    [
+      0.189384,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cssh m1\u001b[K"
+    ],
+    [
+      0.603778,
+      "\b\b\b\b\b\bansible-playbook -i inventory plays/ex1/loop.yml "
+    ],
+    [
+      0.491472,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cssh m1\u001b[K"
+    ],
+    [
+      0.403227,
+      " "
+    ],
+    [
+      0.337938,
+      "c"
+    ],
+    [
+      0.101698,
+      "a"
+    ],
+    [
+      0.133933,
+      "t"
+    ],
+    [
+      0.097208,
+      " "
+    ],
+    [
+      0.56682,
+      "/"
+    ],
+    [
+      0.048199,
+      "e"
+    ],
+    [
+      0.070442,
+      "t"
+    ],
+    [
+      0.235532,
+      "c"
+    ],
+    [
+      0.101328,
+      "/"
+    ],
+    [
+      0.294284,
+      "h"
+    ],
+    [
+      0.079796,
+      "o"
+    ],
+    [
+      0.059219,
+      "s"
+    ],
+    [
+      0.181438,
+      "t"
+    ],
+    [
+      0.077758,
+      "s"
+    ],
+    [
+      0.439168,
+      "\r\n"
+    ],
+    [
+      0.066398,
+      "vagrant@m1's password: "
+    ],
+    [
+      1.759093,
+      "\r\n"
+    ],
+    [
+      0.11752,
+      "127.0.0.1\tm1.local\tm1\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1         localhost localhost.localdomain localhost6 localhost6.localdomain6\r\n192.168.100.7 ansiblecm.local ansiblecm\r\n\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      1.70042,
+      "ssh m1 cat /etc/hosts"
+    ],
+    [
+      0.24536,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bansible-playbook -i inventory plays/ex1/oneline.yml "
+    ],
+    [
+      0.499338,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[31Pssh m1 cat /etc/hosts"
+    ],
+    [
+      0.780533,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bansible-playbook -i inventory plays/ex1/oneline.yml "
+    ],
+    [
+      0.380595,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cssh m1\u001b[K"
+    ],
+    [
+      0.697617,
+      "\r\n"
+    ],
+    [
+      0.064109,
+      "vagrant@m1's password: "
+    ],
+    [
+      3.260615,
+      "\r\n"
+    ],
+    [
+      0.104918,
+      "Last login: Sat Mar 25 14:22:40 2017 from 192.168.100.7\r\r\n"
+    ],
+    [
+      0.011106,
+      "\u001b]0;vagrant@m1:~\u0007\u001b[?1034h[vagrant@m1 ~]$ "
+    ],
+    [
+      0.539068,
+      "cat /etc/hosts"
+    ],
+    [
+      0.244726,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\bsudo rm /usr/local/bin/myapp-build "
+    ],
+    [
+      0.64307,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[21Pcat /etc/hosts"
+    ],
+    [
+      1.665427,
+      "\b"
+    ],
+    [
+      0.500035,
+      "\b"
+    ],
+    [
+      0.029985,
+      "\b"
+    ],
+    [
+      0.030012,
+      "\b"
+    ],
+    [
+      0.031307,
+      "\b"
+    ],
+    [
+      0.030045,
+      "\b"
+    ],
+    [
+      0.030009,
+      "\b"
+    ],
+    [
+      0.02989,
+      "\b"
+    ],
+    [
+      0.030995,
+      "\b"
+    ],
+    [
+      0.02967,
+      "\b"
+    ],
+    [
+      0.212909,
+      "\b"
+    ],
+    [
+      0.163274,
+      "\b\u001b[1P /etc/hosts\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.181222,
+      "\b\u001b[1P /etc/hosts\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.16528,
+      "\b\u001b[1P /etc/hosts\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.133468,
+      "\u0007"
+    ],
+    [
+      0.354391,
+      "v /etc/hosts\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.142463,
+      "i /etc/hosts\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.207931,
+      "\r\n"
+    ],
+    [
+      0.00248,
+      "\u001b[?1049h\u001b[?1h\u001b=\u001b[1;34r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[34;1H\"/etc/hosts\" [readonly] 4L, 220C\u001b[1;1H127.0.0.1\u001b[7Cm1.local\u001b[8Cm1\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1\u001b[9Clocalhost localhost.localdomain localhost6 localhost6.localdomain6\r\n192.168.100.7 ansiblecm.local ansiblecm\r\n\u001b[94m~                                                                                                                                                     \u001b[6;1H~                                                                                                                                                     \u001b[7;1H~                                                                                                                                                     \u001b[8;1H~                                                                                                                                                     \u001b[9;1H~                                                            "
+    ],
+    [
+      2.6e-05,
+      "                                                                                         \u001b[10;1H~                                                                                                                                                     \u001b[11;1H~                                                                                                                                                     \u001b[12;1H~                                                                                                                                                     \u001b[13;1H~                                                                                                                                                     \u001b[14;1H~                                                                                                                                                     \u001b[15;1H~                                                                                                                                              "
+    ],
+    [
+      1.3e-05,
+      "       \u001b[16;1H~                                                                                                                                                     \u001b[17;1H~                                                                                                                                                     \u001b[18;1H~                                                                                                                                                     \u001b[19;1H~                                                                                                                                                     \u001b[20;1H~                                                                                                                                                     \u001b[21;1H~                                                                                                                                                     \u001b[22;1H~                                                                   "
+    ],
+    [
+      1.2e-05,
+      "                                                                                  \u001b[23;1H~                                                                                                                                                     \u001b[24;1H~                                                                                                                                                     \u001b[25;1H~                                                                                                                                                     \u001b[26;1H~                                                                                                                                                     \u001b[27;1H~                                                                                                                                                     \u001b[28;1H~                                                                                                                                                    "
+    ],
+    [
+      8.4e-05,
+      " \u001b[29;1H~                                                                                                                                                     \u001b[30;1H~                                                                                                                                                     \u001b[31;1H~                                                                                                                                                     \u001b[32;1H~                                                                                                                                                     \u001b[33;1H~                                                                                                                                                     \u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.729496,
+      "\r\n"
+    ],
+    [
+      0.301011,
+      "\r\n"
+    ],
+    [
+      0.205094,
+      "\r\n"
+    ],
+    [
+      0.771129,
+      "\u001b[m1"
+    ],
+    [
+      0.499643,
+      "9"
+    ],
+    [
+      0.030333,
+      "2"
+    ],
+    [
+      0.029371,
+      "."
+    ],
+    [
+      0.030204,
+      "1"
+    ],
+    [
+      0.030008,
+      "6"
+    ],
+    [
+      0.030332,
+      "8"
+    ],
+    [
+      0.029832,
+      "."
+    ],
+    [
+      0.030846,
+      "1"
+    ],
+    [
+      0.030618,
+      "0"
+    ],
+    [
+      0.030529,
+      "0"
+    ],
+    [
+      0.031029,
+      "."
+    ],
+    [
+      0.031272,
+      "7"
+    ],
+    [
+      0.028856,
+      " "
+    ],
+    [
+      0.031344,
+      "a"
+    ],
+    [
+      0.030185,
+      "n"
+    ],
+    [
+      0.029393,
+      "s"
+    ],
+    [
+      0.031383,
+      "i"
+    ],
+    [
+      0.030537,
+      "b"
+    ],
+    [
+      0.030637,
+      "l"
+    ],
+    [
+      1.104295,
+      "e"
+    ],
+    [
+      0.582547,
+      "\u001b[?25l\u001b[34;1H\u001b[31mW10: Warning: Changing a readonly file"
+    ],
+    [
+      1.001461,
+      "\u001b[m\r\u001b[1m-- INSERT --\u001b[m\u001b[34;13H\u001b[K\u001b[4;22H.local ansiblecm\u001b[4;38H\u001b[K\u001b[4;22H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.862019,
+      "\u001b[34;1H\u001b[K\u001b[4;21H"
+    ],
+    [
+      1.002043,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.192561,
+      "\u001b[?25l\u001b[34;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.106153,
+      "q"
+    ],
+    [
+      0.235143,
+      "!"
+    ],
+    [
+      0.192944,
+      "\r\u001b[?25l\u001b[34;1H\u001b[K\u001b[34;1H\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b]0;vagrant@m1:~\u0007[vagrant@m1 ~]$ "
+    ],
+    [
+      0.382613,
+      "vi /etc/hosts"
+    ],
+    [
+      0.548228,
+      "\b"
+    ],
+    [
+      0.500881,
+      "\b"
+    ],
+    [
+      0.03021,
+      "\b"
+    ],
+    [
+      0.030116,
+      "\b"
+    ],
+    [
+      0.030226,
+      "\b"
+    ],
+    [
+      0.031014,
+      "\b"
+    ],
+    [
+      0.029989,
+      "\b"
+    ],
+    [
+      0.031057,
+      "\b"
+    ],
+    [
+      0.029598,
+      "\b"
+    ],
+    [
+      0.029995,
+      "\b"
+    ],
+    [
+      0.029362,
+      "\b"
+    ],
+    [
+      0.031207,
+      "\b"
+    ],
+    [
+      0.030065,
+      "\b"
+    ],
+    [
+      0.030199,
+      "\u0007"
+    ],
+    [
+      0.03023,
+      "\u0007"
+    ],
+    [
+      0.030285,
+      "\u0007"
+    ],
+    [
+      0.030959,
+      "\u0007"
+    ],
+    [
+      0.200562,
+      "\u001b[1@s"
+    ],
+    [
+      0.214864,
+      "\u001b[1@u"
+    ],
+    [
+      0.061812,
+      "\u001b[1@d"
+    ],
+    [
+      0.127736,
+      "\u001b[1@o"
+    ],
+    [
+      0.086599,
+      "\u001b[1@ "
+    ],
+    [
+      0.260376,
+      "\r\n"
+    ],
+    [
+      0.011278,
+      "\u001b[?1049h\u001b[?1h\u001b=\u001b[1;34r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[34;1H\"/etc/hosts\" 4L, 220C\u001b[1;1H127.0.0.1\u001b[7Cm1.local\u001b[8Cm1\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1\u001b[9Clocalhost localhost.localdomain localhost6 localhost6.localdomain6\r\n192.168.100.7 ansiblecm.local ansiblecm\r\n\u001b[94m~                                                                                                                                                     \u001b[6;1H~                                                                                                                                                     \u001b[7;1H~                                                                                                                                                     \u001b[8;1H~                                                                                                                                                     \u001b[9;1H~                                                                       "
+    ],
+    [
+      2.8e-05,
+      "                                                                              \u001b[10;1H~                                                                                                                                                     \u001b[11;1H~                                                                                                                                                     \u001b[12;1H~                                                                                                                                                     \u001b[13;1H~                                                                                                                                                     \u001b[14;1H~                                                                                                                                                     \u001b[15;1H~                                                                                                                                                     \u001b[16"
+    ],
+    [
+      1.5e-05,
+      ";1H~                                                                                                                                                     \u001b[17;1H~                                                                                                                                                     \u001b[18;1H~                                                                                                                                                     \u001b[19;1H~                                                                                                                                                     \u001b[20;1H~                                                                                                                                                     \u001b[21;1H~                                                                                                                                                     \u001b[22;1H~                                                                              "
+    ],
+    [
+      1.9e-05,
+      "                                                                       \u001b[23;1H~                                                                                                                                                     \u001b[24;1H~                                                                                                                                                     \u001b[25;1H~                                                                                                                                                     \u001b[26;1H~                                                                                                                                                     \u001b[27;1H~                                                                                                                                                     \u001b[28;1H~                                                                                                                                                     \u001b[29;1H~  "
+    ],
+    [
+      0.00013,
+      "                                                                                                                                                   \u001b[30;1H~                                                                                                                                                     \u001b[31;1H~                                                                                                                                                     \u001b[32;1H~                                                                                                                                                     \u001b[33;1H~                                                                                                                                                     \u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.625741,
+      "\r\n"
+    ],
+    [
+      0.260866,
+      "\r\n"
+    ],
+    [
+      0.173633,
+      "\r\n"
+    ],
+    [
+      0.17276,
+      "\u001b[m1"
+    ],
+    [
+      0.499552,
+      "9"
+    ],
+    [
+      0.030403,
+      "2"
+    ],
+    [
+      0.030321,
+      "."
+    ],
+    [
+      0.03024,
+      "1"
+    ],
+    [
+      0.030172,
+      "6"
+    ],
+    [
+      0.030276,
+      "8"
+    ],
+    [
+      0.029814,
+      "."
+    ],
+    [
+      0.030994,
+      "1"
+    ],
+    [
+      0.02948,
+      "0"
+    ],
+    [
+      0.030287,
+      "0"
+    ],
+    [
+      0.031458,
+      "."
+    ],
+    [
+      0.030699,
+      "7"
+    ],
+    [
+      0.029324,
+      " "
+    ],
+    [
+      0.030816,
+      "a"
+    ],
+    [
+      0.030678,
+      "n"
+    ],
+    [
+      0.029221,
+      "s"
+    ],
+    [
+      0.031255,
+      "i"
+    ],
+    [
+      0.030788,
+      "b"
+    ],
+    [
+      0.030968,
+      "l"
+    ],
+    [
+      0.029508,
+      "e"
+    ],
+    [
+      0.030588,
+      "c"
+    ],
+    [
+      0.029355,
+      "m"
+    ],
+    [
+      0.030478,
+      "."
+    ],
+    [
+      0.284139,
+      "\b"
+    ],
+    [
+      0.197225,
+      "\b"
+    ],
+    [
+      0.165272,
+      "\b"
+    ],
+    [
+      0.429992,
+      "\u001b[?25l\u001b[34;1H\u001b[1m-- INSERT --\u001b[m\u001b[34;14H\u001b[K\u001b[4;22H.local ansiblecm\u001b[4;38H\u001b[K\u001b[4;22H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.626652,
+      "\u001b[?25ls.local ansiblecm\u001b[4;23H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.189825,
+      "\u001b[?25le.local ansiblecm\u001b[4;24H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.063362,
+      "\u001b[?25lr.local ansiblecm\u001b[4;25H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.220134,
+      "\u001b[?25lv.local ansiblecm\u001b[4;26H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.109099,
+      "\u001b[?25le.local ansiblecm\u001b[4;27H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.071352,
+      "\u001b[?25lr.local ansiblecm\u001b[4;28H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.31636,
+      "\u001b[34;1H\u001b[K\u001b[4;27H"
+    ],
+    [
+      0.684506,
+      "\u001b[?25l\u001b[?12l\u001b[?25h\u001b[?25l\u001b[34;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.090464,
+      "w"
+    ],
+    [
+      0.072763,
+      "q"
+    ],
+    [
+      0.189458,
+      "\r\u001b[?25l\"/etc/hosts\""
+    ],
+    [
+      0.007259,
+      " 4L, 224C written\r\r\r\n\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b]0;vagrant@m1:~\u0007[vagrant@m1 ~]$ "
+    ],
+    [
+      1.127471,
+      "logout\r\nConnection to m1 closed.\r\r\n\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      0.359382,
+      "ssh m1"
+    ],
+    [
+      0.20545,
+      " cat /etc/hosts"
+    ],
+    [
+      0.819255,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bansible-playbook -i inventory plays/ex1/oneline.yml "
+    ],
+    [
+      1.23165,
+      "\r\n"
+    ],
+    [
+      0.216734,
+      "\r\nPLAY [lineinfile example] ******************************************************\r\n"
+    ],
+    [
+      0.023421,
+      "\r\nTASK [setup] *******************************************************************\r\n"
+    ],
+    [
+      0.579027,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.074463,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.001421,
+      "\u001b[0;32mok: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.002938,
+      "\r\nTASK [Add ansiblecm to /etc/hosts] *********************************************\r\n"
+    ],
+    [
+      0.409845,
+      "\u001b[0;33mchanged: [m1]\u001b[0m\r\n"
+    ],
+    [
+      0.021065,
+      "\u001b[0;32mok: [m2]\u001b[0m\r\n"
+    ],
+    [
+      0.002392,
+      "\u001b[0;32mok: [m3]\u001b[0m\r\n"
+    ],
+    [
+      0.000997,
+      "\r\nPLAY RECAP *********************************************************************\r\n\u001b[0;33mm1\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0   \r\n\u001b[0;32mm2\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m changed=0    unreachable=0    failed=0   \r\n\u001b[0;32mm3\u001b[0m                         : \u001b[0;32mok=2   \u001b[0m changed=0    unreachable=0    failed=0   \r\n\r\n"
+    ],
+    [
+      0.026415,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      0.881948,
+      "ansible-playbook -i inventory plays/ex1/oneline.yml "
+    ],
+    [
+      0.205053,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cssh m1\u001b[K"
+    ],
+    [
+      0.41261,
+      " cat /etc/hosts"
+    ],
+    [
+      1.064098,
+      "\r\n"
+    ],
+    [
+      0.065308,
+      "vagrant@m1's password: "
+    ],
+    [
+      2.014692,
+      "\r\n"
+    ],
+    [
+      0.113576,
+      "127.0.0.1\tm1.local\tm1\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1         localhost localhost.localdomain localhost6 localhost6.localdomain6\r\n192.168.100.7 ansiblecm.local ansiblecm\r\n\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      3.132638,
+      "logout\r\n"
+    ],
+    [
+      0.000138,
+      "Connection to 127.0.0.1 closed.\r\r\n"
+    ],
+    [
+      0.004183,
+      "\u001b]777;notify;Command completed;vagrant ssh ansiblecm \u0007\u001b]0;dmorales@rj-dvp0007:~/src/talks/workshop-ansible\u0007\u001b]7;file://rj-dvp0007.stone.local/home/dmorales/src/talks/workshop-ansible\u0007"
+    ],
+    [
+      0.003053,
+      "~/src/talks/workshop-ansible\u001b[33;2m(master)\u001b[0m$ "
+    ]
+  ],
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "command": null,
+  "height": 34,
+  "duration": 119.303685,
+  "width": 150,
+  "title": null,
+  "version": 1
+}

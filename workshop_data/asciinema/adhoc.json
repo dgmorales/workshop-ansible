@@ -1,0 +1,530 @@
+{
+  "width": 150,
+  "command": null,
+  "stdout": [
+    [
+      0.069196,
+      "\u001b]777;notify;Command completed;vagrant ssh ansiblecm\u0007\u001b]0;dmorales@rj-dvp0007:~/src/talks/workshop-ansible\u0007\u001b]7;file://rj-dvp0007.stone.local/home/dmorales/src/talks/workshop-ansible\u0007"
+    ],
+    [
+      0.002585,
+      "~/src/talks/workshop-ansible\u001b[33;2m(master)\u001b[0m$ "
+    ],
+    [
+      2.501165,
+      "vagrant ssh ansiblecm"
+    ],
+    [
+      0.436788,
+      " "
+    ],
+    [
+      0.737113,
+      "\r\n"
+    ],
+    [
+      1.592412,
+      "Last login: Sat Mar 25 14:14:43 2017 from 10.0.2.2\r\r\n\u001b]0;vagrant@ansiblecm:~\u0007\u001b[?1034h[vagrant@ansiblecm ~]$ "
+    ],
+    [
+      0.930527,
+      "c"
+    ],
+    [
+      0.038698,
+      "d"
+    ],
+    [
+      0.096616,
+      " "
+    ],
+    [
+      0.662654,
+      "/"
+    ],
+    [
+      0.085626,
+      "v"
+    ],
+    [
+      0.071215,
+      "a"
+    ],
+    [
+      0.21365,
+      "g"
+    ],
+    [
+      0.181422,
+      "r"
+    ],
+    [
+      0.04527,
+      "a"
+    ],
+    [
+      0.119815,
+      "n"
+    ],
+    [
+      0.077226,
+      "t"
+    ],
+    [
+      0.709911,
+      "\r\n"
+    ],
+    [
+      0.000208,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      4.488834,
+      "ansible -i inventory all -m shell -a \"cat /etc/hosts\"\r\n"
+    ],
+    [
+      0.619967,
+      "\u001b[0;32mm2 | SUCCESS | rc=0 >>\r\n127.0.0.1\tm2.local\tm2\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1         localhost localhost.localdomain localhost6 localhost6.localdomain6\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.010113,
+      "\u001b[0;32mm3 | SUCCESS | rc=0 >>\r\n127.0.0.1\tm3.local\tm3\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1         localhost localhost.localdomain localhost6 localhost6.localdomain6\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.00885,
+      "\u001b[0;32mm1 | SUCCESS | rc=0 >>\r\n127.0.0.1\tm1.local\tm1\r\n127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4\r\n::1         localhost localhost.localdomain localhost6 localhost6.localdomain6\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.027264,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      11.30985,
+      "\u0007nsible -i inventory m1 -m setup"
+    ],
+    [
+      1.79977,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.319562,
+      "\u001b[1@a"
+    ],
+    [
+      0.655978,
+      "\r\n"
+    ],
+    [
+      0.624578,
+      "\u001b[0;32mm1 | SUCCESS => {\r\n    \"ansible_facts\": {\r\n        \"ansible_all_ipv4_addresses\": [\r\n            \"10.0.2.15\", \r\n            \"192.168.100.11\"\r\n        ], \r\n        \"ansible_all_ipv6_addresses\": [\r\n            \"fe80::a00:27ff:fe5a:e9e7\", \r\n            \"fe80::a00:27ff:fecd:69ed\"\r\n        ], \r\n        \"ansible_architecture\": \"x86_64\", \r\n        \"ansible_bios_date\": \"12/01/2006\", \r\n        \"ansible_bios_version\": \"VirtualBox\", \r\n        \"ansible_cmdline\": {\r\n            \"BOOT_IMAGE\": \"/vmlinuz-3.10.0-327.el7.x86_64\", \r\n            \"LANG\": \"en_US.UTF-8\", \r\n            \"crashkernel\": \"auto\", \r\n            \"quiet\": true, \r\n            \"rd.lvm.lv\": \"centos/swap\", \r\n            \"rhgb\": true, \r\n            \"ro\": true, \r\n            \"root\": \"/dev/mapper/centos-root\"\r\n        }, \r\n        \"ansible_date_time\": {\r\n            \"date\": \"2017-03-25\", \r\n            \"day\": \"25\", \r\n            \"epoch\": \"1490451358\", \r\n            \"hour\": \"14\", \r\n            \"iso8601\": \"2017-03-25T14:15:58Z\", \r\n            \"iso8601_basic\": \""
+    ],
+    [
+      3.6e-05,
+      "20170325T141558899145\", \r\n            \"iso8601_basic_short\": \"20170325T141558\", \r\n            \"iso8601_micro\": \"2017-03-25T14:15:58.899202Z\", \r\n            \"minute\": \"15\", \r\n            \"month\": \"03\", \r\n            \"second\": \"58\", \r\n            \"time\": \"14:15:58\", \r\n            \"tz\": \"UTC\", \r\n            \"tz_offset\": \"+0000\", \r\n            \"weekday\": \"Saturday\", \r\n            \"weekday_number\": \"6\", \r\n            \"weeknumber\": \"12\", \r\n            \"year\": \"2017\"\r\n        }, \r\n        \"ansible_default_ipv4\": {\r\n            \"address\": \"10.0.2.15\", \r\n            \"alias\": \"enp0s3\", \r\n            \"broadcast\": \"10.0.2.255\", \r\n            \"gateway\": \"10.0.2.2\", \r\n            \"interface\": \"enp0s3\", \r\n            \"macaddress\": \"08:00:27:5a:e9:e7\", \r\n            \"mtu\": 1500, \r\n            \"netmask\": \"255.255.255.0\", \r\n            \"network\": \"10.0.2.0\", \r\n            \"type\": \"ether\"\r\n        }, \r\n        \"ansible_default_ipv6\": {}, \r\n        \"ansible_devices\": {\r\n            \"sda\": {\r\n                \"holders\": [], \r\n    "
+    ],
+    [
+      1.2e-05,
+      "            \"host\": \"\", \r\n                \"model\": \"VBOX HARDDISK\", \r\n                \"partitions\": {\r\n                    \"sda1\": {\r\n                        \"holders\": [], \r\n                        \"sectors\": \"1024000\", \r\n                        \"sectorsize\": 512, \r\n                        \"size\": \"500.00 MB\", \r\n                        \"start\": \"2048\", \r\n                        \"uuid\": \"c52cfba1-d5e0-4fbf-a3bd-a89675465b1a\"\r\n                    }, \r\n                    \"sda2\": {\r\n                        \"holders\": [\r\n                            \"centos-root\", \r\n                            \"centos-swap\"\r\n                        ], \r\n                        \"sectors\": \"82860032\", \r\n                        \"sectorsize\": 512, \r\n                        \"size\": \"39.51 GB\", \r\n                        \"start\": \"1026048\", \r\n                        \"uuid\": null\r\n                    }\r\n                }, \r\n                \"removable\": \"0\", \r\n                \"rotational\": \"1\", \r\n                \"sas_address\": null, \r\n   "
+    ],
+    [
+      1e-05,
+      "             \"sas_device_handle\": null, \r\n                \"scheduler_mode\": \"cfq\", \r\n                \"sectors\": \"83886080\", \r\n                \"sectorsize\": \"512\", \r\n                \"size\": \"40.00 GB\", \r\n                \"support_discard\": \"0\", \r\n                \"vendor\": \"ATA\"\r\n            }\r\n        }, \r\n        \"ansible_distribution\": \"CentOS\", \r\n        \"ansible_distribution_major_version\": \"7\", \r\n        \"ansible_distribution_release\": \"Core\", \r\n        \"ansible_distribution_version\": \"7.2.1511\", \r\n        \"ansible_dns\": {\r\n            \"nameservers\": [\r\n                \"10.0.2.3\"\r\n            ], \r\n            \"search\": [\r\n                \"Home\", \r\n                \"local\"\r\n            ]\r\n        }, \r\n        \"ansible_domain\": \"local\", \r\n        \"ansible_enp0s3\": {\r\n            \"active\": true, \r\n            \"device\": \"enp0s3\", \r\n            \"features\": {\r\n                \"busy_poll\": \"off [fixed]\", \r\n                \"fcoe_mtu\": \"off [fixed]\", \r\n                \"generic_receive_offload\": \"on\", \r\n            "
+    ],
+    [
+      8.7e-05,
+      "    \"generic_segmentation_offload\": \"on\", \r\n                \"highdma\": \"off [fixed]\", \r\n                \"large_receive_offload\": \"off [fixed]\", \r\n                \"loopback\": \"off [fixed]\", \r\n                \"netns_local\": \"off [fixed]\", \r\n                \"ntuple_filters\": \"off [fixed]\", \r\n                \"receive_hashing\": \"off [fixed]\", \r\n                \"rx_all\": \"off\", \r\n                \"rx_checksumming\": \"off\", \r\n                \"rx_fcs\": \"off\", \r\n                \"rx_vlan_filter\": \"on [fixed]\", \r\n                \"rx_vlan_offload\": \"on\", \r\n                \"rx_vlan_stag_filter\": \"off [fixed]\", \r\n                \"rx_vlan_stag_hw_parse\": \"off [fixed]\", \r\n                \"scatter_gather\": \"on\", \r\n                \"tcp_segmentation_offload\": \"on\", \r\n                \"tx_checksum_fcoe_crc\": \"off [fixed]\", \r\n                \"tx_checksum_ip_generic\": \"on\", \r\n                \"tx_checksum_ipv4\": \"off [fixed]\", \r\n                \"tx_checksum_ipv6\": \"off [fixed]\", \r\n                \"tx_checksum_sctp\": \"off [fixed]\", \r\n "
+    ],
+    [
+      1.3e-05,
+      "               \"tx_checksumming\": \"on\", \r\n                \"tx_fcoe_segmentation\": \"off [fixed]\", \r\n                \"tx_gre_segmentation\": \"off [fixed]\", \r\n                \"tx_gso_robust\": \"off [fixed]\", \r\n                \"tx_ipip_segmentation\": \"off [fixed]\", \r\n                \"tx_lockless\": \"off [fixed]\", \r\n                \"tx_mpls_segmentation\": \"off [fixed]\", \r\n                \"tx_nocache_copy\": \"off\", \r\n                \"tx_scatter_gather\": \"on\", \r\n                \"tx_scatter_gather_fraglist\": \"off [fixed]\", \r\n                \"tx_sit_segmentation\": \"off [fixed]\", \r\n                \"tx_tcp6_segmentation\": \"off [fixed]\", \r\n                \"tx_tcp_ecn_segmentation\": \"off [fixed]\", \r\n                \"tx_tcp_segmentation\": \"on\", \r\n                \"tx_udp_tnl_segmentation\": \"off [fixed]\", \r\n                \"tx_vlan_offload\": \"on [fixed]\", \r\n                \"tx_vlan_stag_hw_insert\": \"off [fixed]\", \r\n                \"udp_fragmentation_offload\": \"off [fixed]\", \r\n                \"vlan_challenged\": \"off [fixed]\"\r\n   "
+    ],
+    [
+      1.1e-05,
+      "         }, \r\n            \"ipv4\": {\r\n                \"address\": \"10.0.2.15\", \r\n                \"broadcast\": \"10.0.2.255\", \r\n                \"netmask\": \"255.255.255.0\", \r\n                \"network\": \"10.0.2.0\"\r\n            }, \r\n            \"ipv6\": [\r\n                {\r\n                    \"address\": \"fe80::a00:27ff:fe5a:e9e7\", \r\n                    \"prefix\": \"64\", \r\n                    \"scope\": \"link\"\r\n                }\r\n            ], \r\n            \"macaddress\": \"08:00:27:5a:e9:e7\", \r\n            \"module\": \"e1000\", \r\n            \"mtu\": 1500, \r\n            \"pciid\": \"0000:00:03.0\", \r\n            \"promisc\": false, \r\n            \"speed\": 1000, \r\n            \"type\": \"ether\"\r\n        }, \r\n        \"ansible_enp0s8\": {\r\n            \"active\": true, \r\n            \"device\": \"enp0s8\", \r\n            \"features\": {\r\n                \"busy_poll\": \"off [fixed]\", \r\n                \"fcoe_mtu\": \"off [fixed]\", \r\n                \"generic_receive_offload\": \"on\", \r\n                \"generic_segmentation_offload\": \"on\", \r\n               "
+    ],
+    [
+      1.1e-05,
+      " \"highdma\": \"off [fixed]\", \r\n                \"large_receive_offload\": \"off [fixed]\", \r\n                \"loopback\": \"off [fixed]\", \r\n                \"netns_local\": \"off [fixed]\", "
+    ],
+    [
+      0.000148,
+      "\r\n                \"ntuple_filters\": \"off [fixed]\", \r\n                \"receive_hashing\": \"off [fixed]\", \r\n                \"rx_all\": \"off\", \r\n                \"rx_checksumming\": \"off\", \r\n                \"rx_fcs\": \"off\", \r\n                \"rx_vlan_filter\": \"on [fixed]\", \r\n                \"rx_vlan_offload\": \"on\", \r\n                \"rx_vlan_stag_filter\": \"off [fixed]\", \r\n                \"rx_vlan_stag_hw_parse\": \"off [fixed]\", \r\n                \"scatter_gather\": \"on\", \r\n                \"tcp_segmentation_offload\": \"on\", \r\n                \"tx_checksum_fcoe_crc\": \"off [fixed]\", \r\n                \"tx_checksum_ip_generic\": \"on\", \r\n                \"tx_checksum_ipv4\": \"off [fixed]\", \r\n                \"tx_checksum_ipv6\": \"off [fixed]\", \r\n                \"tx_checksum_sctp\": \"off [fixed]\", \r\n                \"tx_checksumming\": \"on\", \r\n                \"tx_fcoe_segmentation\": \"off [fixed]\", \r\n                \"tx_gre_segmentation\": \"off [fixed]\", \r\n                \"tx_gso_robust\": \"off [fixed]\", \r\n                \"tx_ipip_segment"
+    ],
+    [
+      1.9e-05,
+      "ation\": \"off [fixed]\", \r\n                \"tx_lockless\": \"off [fixed]\", \r\n                \"tx_mpls_segmentation\": \"off [fixed]\", \r\n                \"tx_nocache_copy\": \"off\", \r\n                \"tx_scatter_gather\": \"on\", \r\n                \"tx_scatter_gather_fraglist\": \"off [fixed]\", \r\n                \"tx_sit_segmentation\": \"off [fixed]\", \r\n                \"tx_tcp6_segmentation\": \"off [fixed]\", \r\n                \"tx_tcp_ecn_segmentation\": \"off [fixed]\", \r\n                \"tx_tcp_segmentation\": \"on\", \r\n                \"tx_udp_tnl_segmentation\": \"off [fixed]\", \r\n                \"tx_vlan_offload\": \"on [fixed]\", \r\n                \"tx_vlan_stag_hw_insert\": \"off [fixed]\", \r\n                \"udp_fragmentation_offload\": \"off [fixed]\", \r\n                \"vlan_challenged\": \"off [fixed]\"\r\n            }, \r\n            \"ipv4\": {\r\n                \"address\": \"192.168.100.11\", \r\n                \"broadcast\": \"192.168.100.255\", \r\n                \"netmask\": \"255.255.255.0\", \r\n                \"network\": \"192.168.100.0\"\r\n            }"
+    ],
+    [
+      1.5e-05,
+      ", \r\n            \"ipv6\": [\r\n                {\r\n                    \"address\": \"fe80::a00:27ff:fecd:69ed\", \r\n                    \"prefix\": \"64\", \r\n                    \"scope\": \"link\"\r\n                }\r\n            ], \r\n            \"macaddress\": \"08:00:27:cd:69:ed\", \r\n            \"module\": \"e1000\", \r\n            \"mtu\": 1500, \r\n            \"pciid\": \"0000:00:08.0\", \r\n            \"promisc\": false, \r\n            \"speed\": 1000, \r\n            \"type\": \"ether\"\r\n        }, \r\n        \"ansible_env\": {\r\n            \"HOME\": \"/home/vagrant\", \r\n            \"LANG\": \"en_US.UTF-8\", \r\n            \"LESSOPEN\": \"||/usr/bin/lesspipe.sh %s\", \r\n            \"LOGNAME\": \"vagrant\", \r\n            \"MAIL\": \"/var/mail/vagrant\", \r\n            \"PATH\": \"/usr/local/bin:/usr/bin\", \r\n            \"PWD\": \"/home/vagrant\", \r\n            \"SELINUX_LEVEL_REQUESTED\": \"\", \r\n            \"SELINUX_ROLE_REQUESTED\": \"\", \r\n            \"SELINUX_USE_CURRENT_RANGE\": \"\", \r\n            \"SHELL\": \"/bin/bash\", \r\n            \"SHLVL\": \"2\", \r\n            \"SSH_CLIENT\": \"192.1"
+    ],
+    [
+      1.2e-05,
+      "68.100.7 59026 22\", \r\n            \"SSH_CONNECTION\": \"192.168.100.7 59026 192.168.100.11 22\", \r\n            \"SSH_TTY\": \"/dev/pts/0\", \r\n            \"TERM\": \"xterm-256color\", \r\n            \"USER\": \"vagrant\", \r\n            \"XDG_RUNTIME_DIR\": \"/run/user/1000\", \r\n            \"XDG_SESSION_ID\": \"6\", \r\n            \"XMODIFIERS\": \"@im=none\", \r\n            \"_\": \"/usr/bin/python\"\r\n        }, \r\n        \"ansible_fips\": false, \r\n        \"ansible_form_factor\": \"Other\", \r\n        \"ansible_fqdn\": \"m1.local\", \r\n        \"ansible_gather_subset\": [\r\n            \"hardware\", \r\n            \"network\", \r\n            \"virtual\"\r\n        ], \r\n        \"ansible_hostname\": \"m1\", \r\n        \"ansible_interfaces\": [\r\n            \"lo\", \r\n            \"enp0s3\", \r\n            \"enp0s8\"\r\n        ], \r\n        \"ansible_kernel\": \"3.10.0-327.el7.x86_64\", \r\n        \"ansible_lo\": {\r\n            \"active\": true, \r\n            \"device\": \"lo\", \r\n            \"features\": {\r\n                \"busy_poll\": \"off [fixed]\", \r\n                \"fcoe_mtu\": \"off [fixed]\", \r"
+    ],
+    [
+      5e-05,
+      "\n                \"generic_receive_offload\": \"on\", \r\n                \"generic_segmentation_offload\": \"on\", \r\n                \"highdma\": \"on [fixed]\", \r\n                \"large_receive_offload\": \"off [fixed]\", \r\n                \"loopback\": \"on [fixed]\", \r\n                \"netns_local\": \"on [fixed]\", \r\n                \"ntuple_filters\": \"off [fixed]\", \r\n                \"receive_hashing\": \"off [fixed]\", \r\n                \"rx_all\": \"off [fixed]\", \r\n                \"rx_checksumming\": \"on [fixed]\", \r\n                \"rx_fcs\": \"off [fixed]\", \r\n                \"rx_vlan_filter\": \"off [fixed]\", \r\n                \"rx_vlan_offload\": \"off [fixed]\", \r\n                \"rx_vlan_stag_filter\": \"off [fixed]\", \r\n                \"rx_vlan_stag_hw_parse\": \"off [fixed]\", \r\n                \"scatter_gather\": \"on\", \r\n                \"tcp_segmentation_offload\": \"on\", \r\n                \"tx_checksum_fcoe_crc\": \"off [fixed]\", \r\n                \"tx_checksum_ip_generic\": \"on [fixed]\", \r\n                \"tx_checksum_ipv4\": \"off [fixed]\", \r\n     "
+    ],
+    [
+      2e-05,
+      "           \"tx_checksum_ipv6\": \"off [fixed]\", \r\n                \"tx_checksum_sctp\": \"off [fixed]\", \r\n                \"tx_checksumming\": \"on\", \r\n                \"tx_fcoe_segmentation\": \"off [fixed]\", \r\n                \"tx_gre_segmentation\": \"off [fixed]\", \r\n                \"tx_gso_robust\": \"off [fixed]\", \r\n                \"tx_ipip_segmentation\": \"off [fixed]\", \r\n                \"tx_lockless\": \"on [fixed]\", \r\n                \"tx_mpls_segmentation\": \"off [fixed]\", \r\n                \"tx_nocache_copy\": \"off [fixed]\", \r\n                \"tx_scatter_gather\": \"on [fixed]\", \r\n                \"tx_scatter_gather_fraglist\": \"on [fixed]\", \r\n                \"tx_sit_segmentation\": \"off [fixed]\", \r\n                \"tx_tcp6_segmentation\": \"on\", \r\n                \"tx_tcp_ecn_segmentation\": \"on\", \r\n                \"tx_tcp_segmentation\": \"on\", \r\n                \"tx_udp_tnl_segmentation\": \"off [fixed]\", \r\n                \"tx_vlan_offload\": \"off [fixed]\", \r\n                \"tx_vlan_stag_hw_insert\": \"off [fixed]\", \r\n                "
+    ],
+    [
+      1.7e-05,
+      "\"udp_fragmentation_offload\": \"on\", \r\n                \"vlan_challenged\": \"on [fixed]\"\r\n            }, \r\n            \"ipv4\": {\r\n                \"address\": \"127.0.0.1\", \r\n                \"broadcast\": \"host\", \r\n                \"netmask\": \"255.0.0.0\", \r\n                \"network\": \"127.0.0.0\"\r\n            }, \r\n            \"ipv6\": [\r\n                {\r\n                    \"address\": \"::1\", \r\n                    \"prefix\": \"128\", \r\n                    \"scope\": \"host\"\r\n                }\r\n            ], \r\n            \"mtu\": 65536, \r\n            \"promisc\": false, \r\n            \"type\": \"loopback\"\r\n        }, \r\n        \"ansible_machine\": \"x86_64\", \r\n        \"ansible_machine_id\": \"e5e7c82463dd47c79e6c0484377e00f1\", \r\n        \"ansible_memfree_mb\": 647, \r\n        \"ansible_memory_mb\": {\r\n            \"nocache\": {\r\n                \"free\": 852, \r\n                \"used\": 141\r\n            }, \r\n            \"real\": {\r\n                \"free\": 647, \r\n                \"total\": 993, \r\n                \"used\": 346\r\n            }, \r\n        "
+    ],
+    [
+      1.2e-05,
+      "    \"swap\": {\r\n"
+    ],
+    [
+      0.001362,
+      "                \"cached\": 0, \r\n                \"free\": 2047, \r\n                \"total\": 2047, \r\n                \"used\": 0\r\n            }\r\n        }, \r\n        \"ansible_memtotal_mb\": 993, \r\n        \"ansible_mounts\": [\r\n            {\r\n                \"device\": \"/dev/mapper/centos-root\", \r\n                \"fstype\": \"xfs\", \r\n                \"mount\": \"/\", \r\n                \"options\": \"rw,seclabel,relatime,attr2,inode64,noquota\", \r\n                \"size_available\": 39253016576, \r\n                \"size_total\": 40207929344, \r\n                \"uuid\": \"bb931545-5367-4fe4-9425-d1793ead1f3f\"\r\n            }, \r\n            {\r\n                \"device\": \"/dev/sda1\", \r\n                \"fstype\": \"xfs\", \r\n                \"mount\": \"/boot\", \r\n                \"options\": \"rw,seclabel,relatime,attr2,inode64,noquota\", \r\n                \"size_available\": 390672384, \r\n                \"size_total\": 520794112, \r\n                \"uuid\": \"c52cfba1-d5e0-4fbf-a3bd-a89675465b1a\"\r\n            }\r\n        ], \r\n        \"ansible_nodename\": \"m1.loc"
+    ],
+    [
+      2.6e-05,
+      "al\", \r\n        \"ansible_os_family\": \"RedHat\", \r\n        \"ansible_pkg_mgr\": \"yum\", \r\n        \"ansible_processor\": [\r\n            \"GenuineIntel\", \r\n            \"Intel(R) Core(TM) i7-4600M CPU @ 2.90GHz\"\r\n        ], \r\n        \"ansible_processor_cores\": 1, \r\n        \"ansible_processor_count\": 1, \r\n        \"ansible_processor_threads_per_core\": 1, \r\n        \"ansible_processor_vcpus\": 1, \r\n        \"ansible_product_name\": \"VirtualBox\", \r\n        \"ansible_product_serial\": \"NA\", \r\n        \"ansible_product_uuid\": \"NA\", \r\n        \"ansible_product_version\": \"1.2\", \r\n        \"ansible_python\": {\r\n            \"executable\": \"/usr/bin/python\", \r\n            \"has_sslcontext\": true, \r\n            \"type\": \"CPython\", \r\n            \"version\": {\r\n                \"major\": 2, \r\n                \"micro\": 5, \r\n                \"minor\": 7, \r\n                \"releaselevel\": \"final\", \r\n                \"serial\": 0\r\n            }, \r\n            \"version_info\": [\r\n                2, \r\n                7, \r\n                5, \r\n                \"f"
+    ],
+    [
+      1.5e-05,
+      "inal\", \r\n                0\r\n            ]\r\n        }, \r\n        \"ansible_python_version\": \"2.7.5\", \r\n        \"ansible_selinux\": {\r\n            \"config_mode\": \"permissive\", \r\n            \"mode\": \"permissive\", \r\n            \"policyvers\": 28, \r\n            \"status\": \"enabled\", \r\n            \"type\": \"targeted\"\r\n        }, \r\n        \"ansible_service_mgr\": \"systemd\", \r\n        \"ansible_ssh_host_key_ecdsa_public\": \"AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBH7v34fRJr+VE5dGZEwZrXfFWgoEdAgCodXtSQtKzxYgfYRbRwEDCbIvKn2PoCSSQo9+gL6TV+Syt6pmqCVCMSI=\", \r\n        \"ansible_ssh_host_key_ed25519_public\": \"AAAAC3NzaC1lZDI1NTE5AAAAIL4y16WiwsfG+4Gk9Rb4yHu+t3oFeDmY1XtAPHC/FCeN\", \r\n        \"ansible_ssh_host_key_rsa_public\": \"AAAAB3NzaC1yc2EAAAADAQABAAABAQC+SxZgNfkCEaABfRjLg3YPRAvkEhmV3d+SbuAAn2oVZS4uImZl4ZnVuO3rwLy6eG8f3oD3pVXDNekoOJ3CASloXxNh6toYDg+aSkTzzC2Y0Y37IIOrf8KWGgmf6D4k3/JM2A3pj+grSoD9hXXS/nEdXfC/lAvZ2bFqcA0sArY/GLgyKwNvF3nCxDkVw1dxcP6YxkLSZya5WK25lH8r5xlA6w11W2Ef+BxyYMV7oFuzxFxaZO8xNBW0icvJlV9IOKQOfUl3+TTFrpr5PE"
+    ],
+    [
+      1.5e-05,
+      "DBoyfPLq7QnPIJd1kp6ew/dxdGb/+sUtjDtoZXNU7DFOfH9F5hpXSLr4CwWaPBO0924MVd\", \r\n        \"ansible_swapfree_mb\": 2047, \r\n        \"ansible_swaptotal_mb\": 2047, \r\n        \"ansible_system\": \"Linux\", \r\n        \"ansible_system_capabilities\": [\r\n            \"\"\r\n        ], \r\n        \"ansible_system_capabilities_enforced\": \"True\", \r\n        \"ansible_system_vendor\": \"innotek GmbH\", \r\n        \"ansible_uptime_seconds\": 2076, \r\n        \"ansible_user_dir\": \"/home/vagrant\", \r\n        \"ansible_user_gecos\": \"vagrant\", \r\n        \"ansible_user_gid\": 1000, \r\n        \"ansible_user_id\": \"vagrant\", \r\n        \"ansible_user_shell\": \"/bin/bash\", \r\n        \"ansible_user_uid\": 1000, \r\n        \"ansible_userspace_architecture\": \"x86_64\", \r\n        \"ansible_userspace_bits\": \"64\", \r\n        \"ansible_virtualization_role\": \"guest\", \r\n        \"ansible_virtualization_type\": \"virtualbox\", \r\n        \"module_setup\": true\r\n    }, \r\n    \"changed\": false\r\n}\u001b[0m\r\n"
+    ],
+    [
+      0.024709,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      2.250589,
+      "ansible -i inventory m1 -m setup"
+    ],
+    [
+      0.63347,
+      " "
+    ],
+    [
+      2.132144,
+      "-"
+    ],
+    [
+      0.08995,
+      "a"
+    ],
+    [
+      0.233282,
+      " "
+    ],
+    [
+      0.885847,
+      "\""
+    ],
+    [
+      0.429007,
+      "f"
+    ],
+    [
+      0.158502,
+      "i"
+    ],
+    [
+      0.1577,
+      "l"
+    ],
+    [
+      0.069457,
+      "t"
+    ],
+    [
+      0.077302,
+      "e"
+    ],
+    [
+      0.126109,
+      "r"
+    ],
+    [
+      0.651779,
+      "="
+    ],
+    [
+      0.459328,
+      "*"
+    ],
+    [
+      0.269146,
+      "p"
+    ],
+    [
+      0.283093,
+      "t"
+    ],
+    [
+      7.4e-05,
+      "r"
+    ],
+    [
+      0.403813,
+      "\b\u001b[K"
+    ],
+    [
+      0.524246,
+      "\b\u001b[K"
+    ],
+    [
+      0.17891,
+      "r"
+    ],
+    [
+      0.094159,
+      "o"
+    ],
+    [
+      0.696685,
+      "c"
+    ],
+    [
+      0.063671,
+      "e"
+    ],
+    [
+      0.226859,
+      "s"
+    ],
+    [
+      0.14956,
+      "s"
+    ],
+    [
+      0.089225,
+      "o"
+    ],
+    [
+      0.115157,
+      "r"
+    ],
+    [
+      0.763124,
+      "*"
+    ],
+    [
+      0.535727,
+      "\""
+    ],
+    [
+      0.623152,
+      "\r\n"
+    ],
+    [
+      0.623727,
+      "\u001b[0;32mm1 | SUCCESS => {\r\n    \"ansible_facts\": {\r\n        \"ansible_processor\": [\r\n            \"GenuineIntel\", \r\n            \"Intel(R) Core(TM) i7-4600M CPU @ 2.90GHz\"\r\n        ], \r\n        \"ansible_processor_cores\": 1, \r\n        \"ansible_processor_count\": 1, \r\n        \"ansible_processor_threads_per_core\": 1, \r\n        \"ansible_processor_vcpus\": 1\r\n    }, \r\n    \"changed\": false\r\n}\u001b[0m\r\n"
+    ],
+    [
+      0.024469,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      9.493733,
+      "ansible -i inventory m1 -m setup -a \"filter=*processor*\""
+    ],
+    [
+      0.22888,
+      "\b"
+    ],
+    [
+      0.500592,
+      "\b"
+    ],
+    [
+      0.030839,
+      "\b"
+    ],
+    [
+      0.030775,
+      "\b"
+    ],
+    [
+      0.031782,
+      "\b"
+    ],
+    [
+      0.030781,
+      "\b"
+    ],
+    [
+      0.030787,
+      "\b"
+    ],
+    [
+      0.029732,
+      "\b"
+    ],
+    [
+      0.02984,
+      "\b"
+    ],
+    [
+      0.030019,
+      "\b"
+    ],
+    [
+      0.03032,
+      "\b"
+    ],
+    [
+      0.030731,
+      "\b"
+    ],
+    [
+      0.030794,
+      "\b"
+    ],
+    [
+      0.029584,
+      "\b"
+    ],
+    [
+      0.030617,
+      "\b"
+    ],
+    [
+      0.029231,
+      "\b"
+    ],
+    [
+      0.031225,
+      "\b"
+    ],
+    [
+      0.031149,
+      "\b"
+    ],
+    [
+      0.029684,
+      "\b"
+    ],
+    [
+      0.029657,
+      "\b"
+    ],
+    [
+      0.029802,
+      "\b"
+    ],
+    [
+      0.03062,
+      "\b"
+    ],
+    [
+      0.029499,
+      "\b"
+    ],
+    [
+      0.030584,
+      "\b"
+    ],
+    [
+      0.029335,
+      "\b"
+    ],
+    [
+      0.030159,
+      "\b"
+    ],
+    [
+      0.030505,
+      "\b"
+    ],
+    [
+      0.029086,
+      "\b"
+    ],
+    [
+      0.030685,
+      "\b"
+    ],
+    [
+      0.029771,
+      "\b"
+    ],
+    [
+      0.030766,
+      "\b"
+    ],
+    [
+      0.030396,
+      "\b"
+    ],
+    [
+      0.03033,
+      "\b"
+    ],
+    [
+      0.42993,
+      "\b\u001b[1P"
+    ],
+    [
+      0.17326,
+      "\b\u001b[1P"
+    ],
+    [
+      0.312943,
+      "\u001b[1@a"
+    ],
+    [
+      0.320061,
+      "\u001b[1@l"
+    ],
+    [
+      0.14959,
+      "\u001b[1@l"
+    ],
+    [
+      0.317844,
+      "\r\n"
+    ],
+    [
+      0.789921,
+      "\u001b[0;32mm1 | SUCCESS => {\r\n    \"ansible_facts\": {\r\n        \"ansible_processor\": [\r\n            \"GenuineIntel\", \r\n            \"Intel(R) Core(TM) i7-4600M CPU @ 2.90GHz\"\r\n        ], \r\n        \"ansible_processor_cores\": 1, \r\n        \"ansible_processor_count\": 1, \r\n        \"ansible_processor_threads_per_core\": 1, \r\n        \"ansible_processor_vcpus\": 1\r\n    }, \r\n    \"changed\": false\r\n}\u001b[0m\r\n"
+    ],
+    [
+      0.028827,
+      "\u001b[0;32mm3 | SUCCESS => {\r\n    \"ansible_facts\": {\r\n        \"ansible_processor\": [\r\n            \"GenuineIntel\", \r\n            \"Intel(R) Core(TM) i7-4600M CPU @ 2.90GHz\"\r\n        ], \r\n        \"ansible_processor_cores\": 1, \r\n        \"ansible_processor_count\": 1, \r\n        \"ansible_processor_threads_per_core\": 1, \r\n        \"ansible_processor_vcpus\": 1\r\n    }, \r\n    \"changed\": false\r\n}\u001b[0m\r\n"
+    ],
+    [
+      0.012143,
+      "\u001b[0;32mm2 | SUCCESS => {\r\n    \"ansible_facts\": {\r\n        \"ansible_processor\": [\r\n            \"GenuineIntel\", \r\n            \"Intel(R) Core(TM) i7-4600M CPU @ 2.90GHz\"\r\n        ], \r\n        \"ansible_processor_cores\": 1, \r\n        \"ansible_processor_count\": 1, \r\n        \"ansible_processor_threads_per_core\": 1, \r\n        \"ansible_processor_vcpus\": 1\r\n    }, \r\n    \"changed\": false\r\n}\u001b[0m\r\n"
+    ],
+    [
+      0.02307,
+      "\u001b]0;vagrant@ansiblecm:/vagrant\u0007[vagrant@ansiblecm vagrant]$ "
+    ],
+    [
+      7.146266,
+      "logout\r\n"
+    ],
+    [
+      0.000121,
+      "Connection to 127.0.0.1 closed.\r\r\n"
+    ],
+    [
+      0.004031,
+      "\u001b]777;notify;Command completed;vagrant ssh ansiblecm \u0007\u001b]0;dmorales@rj-dvp0007:~/src/talks/workshop-ansible\u0007\u001b]7;file://rj-dvp0007.stone.local/home/dmorales/src/talks/workshop-ansible\u0007"
+    ],
+    [
+      0.002945,
+      "~/src/talks/workshop-ansible\u001b[33;2m(master)\u001b[0m$ "
+    ]
+  ],
+  "title": null,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm-256color"
+  },
+  "height": 34,
+  "version": 1,
+  "duration": 63.356075
+}

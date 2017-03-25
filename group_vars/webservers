@@ -2,3 +2,20 @@
 # Variables listed here are applicable to all host groups
 
 httpd_port: 80
+php_packages:
+  - php
+  - php-cli
+  - php-common
+  - php-devel
+  - php-fpm
+  - php-gd
+  - php-imap
+  - php-ldap
+  - php-mbstring
+  - php-opcache
+  - php-pdo
+  - php-pear
+  - php-pecl-apcu
+  - php-xml
+  - php-xmlrpc
+  - php-mysql
