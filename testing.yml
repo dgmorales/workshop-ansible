@@ -38,6 +38,11 @@
   tasks:
     - name: Open http port on firewall
       firewalld:
-        service: https
+        service: http
         permanent: true
         state: enabled
+      notify: reload firewall
+      tags: firewall
+  handlers:
+    - name: reload firewall
+      command: /bin/firewall-cmd --reload

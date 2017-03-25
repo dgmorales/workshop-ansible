@@ -1,4 +1,7 @@
 ---
+- hosts: all
+  gather_facts: true
+
 - hosts: webservers
   serial: 1
   become: true
@@ -8,11 +11,11 @@
       delegate_to: "{{ item }}"
       with_items: "{{ groups.loadbal }}"
 
-    - name: update nginx
-      yum: name=nginx state=latest
+    - name: update myapp
+      include_role: name=example.myapp
 
     - pause: seconds=40
-    
+
     - name: wait for webserver to come up
       wait_for: port=80 timeout=80
 
