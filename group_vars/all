@@ -1,9 +1,0 @@
-ansible_user: vagrant
-ansible_password: vagrant
-
-ntpserver: 192.168.1.2
-ntp_servers:
-  - a.ntp.br
-  - b.ntp.br
-  - c.ntp.br
-  - gns.ntp.br
