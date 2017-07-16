@@ -6,27 +6,36 @@
 
 On windows, check:https://doauto.blog/2016/12/22/ansible-windows-rodando-ansible-a-partir-do-windows-com-docker/
 
+# Basics
+
+Enter the ansiblecm vm and got to /vagrant:
+
+```
+vagrant ssh ansiblecm
+cd /vagrant
+```
+
+## The inventory
+
 ```
 ansible -i inventory all -m ping
 ansible -i inventory all -m ping --ssh-extra-args="-o StrictHostKeyChecking=no"
-# if you comment ansible_user/ansible_password in group_vars/all you will need:
 ansible -i inventory all -m ping -u vagrant --ask-pass
 ```
-
-# Basics
-## The inventory
 
 - And group_vars
 - And the lousy/insecure/dumb way of storing passwords
 - There are host_vars too.
 
-## Ansible ad-hoc
+## Ansible ad-hoc, and Facts
 ```
 ansible -i inventory all -m shell -a "cat /etc/hosts"
 ansible -i inventory m1 -m setup
+ansible -i inventory m1 -m setup -a filter='ansible_processor_*'
 ```
 
-- User, password, sudo
+You can have local custom facts, written as json or INI files, or a script in any language:
+http://docs.ansible.com/ansible/playbooks_variables.html#local-facts-facts-d
 
 ## Simple ansible playbook
 `ansible-playbook -i inventory plays/ex1/package-file-service.yml`
