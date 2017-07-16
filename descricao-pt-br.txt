@@ -1,0 +1,15 @@
+Nuvens, containers, DevOps, infraestrutura ágil, automatização de tarefas... a abordagem de Infraestrutura como Código (IaC) está no centro de tudo isso. Empresas modernas e inovadoras só procuram profissionais de desenvolvimento e infraestrutura capazes de lidar com infraestrutura como código.
+
+Neste workshop vamos falar de uma das ferramentas de IaC que mais vem se popularizando no Brasil e no mundo, o Ansible. O ansible é uma ferramenta open source de orquestração e gerência de configuração. Algumas coisas que vamos abordar:
+
+- O que é, como usar o ansible e qual o seu diferencial
+- Principais construções na linguagem do ansible
+- Usando e criando Roles com o ansible-galaxy
+- Testando código Ansible usando Molecule e testinfra
+- Criando containers docker com código ansible usando o ansible-container
+- Demo rápida do Ansible Tower (interface web comercial do projeto mas que será futuramente liberada como open source)
+- Algumas dicas sobre gerenciamento de servidores Windows, e sobre como rodar o ansible a partir de uma estação windows.
+
+Usaremos um ambiente vagrant com VMs linux para demonstrar o uso de ansible na prática. Faremos pausas durante as explanações para que os participantes executem e façam alterações nos códigos demonstrados. Teremos exemplos gradativamente complexos culminando na configuração de um stack LAMP e a orquestração de um rolling upgrade nessas VMs.
+
+Tragam seus laptops (com vagrant e git instalado)!
