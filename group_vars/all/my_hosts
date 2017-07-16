@@ -1,0 +1,10 @@
+my_hosts:
+  server1.example.com:
+    aliases: server1
+    ip: 10.0.0.12
+  server2.example.com:
+    aliases: server2 maindb
+    ip: 10.0.0.234
+  server3.example.com:
+    aliases: server3 otherdb
+    ip: 10.0.0.56

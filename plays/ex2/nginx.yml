@@ -17,7 +17,7 @@
         owner: root
         group: root
         mode: 0644
-      when: not {{ use_epel|bool }}
+      when: not use_epel|bool
 
     - block:
       - name: Install EPEL repo.
@@ -30,7 +30,7 @@
           key: "{{ epel_repo_gpg_key_url }}"
           state: present
         ignore_errors: "{{ ansible_check_mode }}"
-      when: "{{ use_epel|bool }} == true"
+      when: use_epel|bool == true
 
 
     - name: Ensure nginx is installed.

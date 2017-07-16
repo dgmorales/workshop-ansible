@@ -6,7 +6,7 @@
     use_epel: true
   tasks:
     - include: epel.yml
-      when: "{{ use_epel|bool }} == true"
+      when: use_epel|bool == true
     - include: nginx.yml
     - include: myapp.yml
       tags: myapp

@@ -6,7 +6,7 @@
 
 On windows, check:https://doauto.blog/2016/12/22/ansible-windows-rodando-ansible-a-partir-do-windows-com-docker/
 
-# Basics
+# Part 1: The basics
 
 Enter the ansiblecm vm and got to /vagrant:
 
@@ -30,25 +30,34 @@ ansible -i inventory all -m ping -u vagrant --ask-pass
 ## Ansible ad-hoc, and Facts
 ```
 ansible -i inventory all -m shell -a "cat /etc/hosts"
+ansible -i inventory all -m shell -a "cat /etc/redhat-release"
 ansible -i inventory m1 -m setup
-ansible -i inventory m1 -m setup -a filter='ansible_processor_*'
+ansible -i inventory all -m setup -a filter='ansible_distribution*'
 ```
 
 You can have local custom facts, written as json or INI files, or a script in any language:
 http://docs.ansible.com/ansible/playbooks_variables.html#local-facts-facts-d
 
 ## Simple ansible playbook
+Adhoc run can be useful, but the real power is in the playbooks. We will look some basic ones in plays/ex1/.
+
 `ansible-playbook -i inventory plays/ex1/package-file-service.yml`
 
 ## Templates, Variables and Facts
 `ansible-playbook -i inventory plays/ex1/package-file-service-template.yml`
 
 ## Check mode and diff
-`ansible-playbook -i inventory plays/ex1/package-file-service-template.yml --check`
-`ansible-playbook -i inventory plays/ex1/package-file-service-template.yml --check -D`
+(manually change some line in /etc/ntp.conf on one of the machines)
+```
+ansible-playbook -i inventory plays/ex1/package-file-service-template.yml --check
+ansible-playbook -i inventory plays/ex1/package-file-service-template.yml --check -D
+```
 
 ## lineinfile example
-`ansible-playbook -i inventory plays/ex1/oneline.yml`
+```
+ansible-playbook -i inventory plays/ex1/oneline.yml
+ansible -i inventory all -m shell -a "cat /etc/hosts"
+```
 
 - See also ini_file: http://docs.ansible.com/ansible/ini_file_module.html
 
@@ -58,14 +67,17 @@ http://docs.ansible.com/ansible/playbooks_variables.html#local-facts-facts-d
 - Ansible **is** idempotent. It all depends on module quality and purpose.
 - **Several** other loop constructs (with_*).
 
-## Conditionals, ignore_errors and a more complex playbook
 
-`ansible-playbook -i inventory plays/ex2/nginx.yml --check`
-`ansible-playbook -i inventory plays/ex2/nginx.yml`
-`ansible-playbook -i inventory plays/ex2/nginx.yml -e use_epel=no`
+# Part 2: a more complex playbook
+
+```
+ansible-playbook -i inventory plays/ex2/nginx.yml --check
+ansible-playbook -i inventory plays/ex2/nginx.yml
+ansible-playbook -i inventory plays/ex2/nginx.yml -e use_epel=no
+```
 
 Note some details:
-- when clause (and "skipping ..." messages)
+- Conditionals: when clause (and "skipping ..." messages)
 - block "module"
 - Tags (myapp)
 - See ignore_errors and ansible_check_mode
