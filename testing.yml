@@ -18,6 +18,9 @@
   hosts: webservers
   become: true
   vars:
+  pre_tasks:
+    - name: Remove nginx to avoid conflict with apache
+      package: name=nginx state=absent
   roles:
     - geerlingguy.apache
     - geerlingguy.php

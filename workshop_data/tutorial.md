@@ -94,7 +94,7 @@ Note some details:
 
 Also, we have 3 things here: epel, nginx, and myapp.
 
-# Splitting the nginx example with includes
+## Splitting the nginx example with includes
 
 Includes are not so good, but can be useful.
 
@@ -152,19 +152,31 @@ Note:
 
 # Orchestration, rolling upgrades, etc.
 
-`ansible-playbook -i inventory plays/rolling-update.yml`
+```
+ansible-playbook -i inventory plays/rolling-update.yml
+ansible-playbook -i inventory plays/rolling-update.yml -e myapp_version=3
+```
 
 While on pause, check that only one machine answers using the balancer:
 `curl http://192.168.100.13`
 
 Note:
 - serial: 1
+- prompted variables
 - delegate_to and {{ inventory_hostname }}
 - with_items being used because could be several load balancers
 - wait_for and interactive pause
 - could use reboot if needed
 
 # Other topics
+
+## Ansible Vault
+```
+ansible-vault encrypt group_vars/all/creds
+echo q1w2e3r4 > vaultpass
+ansible-playbook -i inventory testing.yml --tags myapp --ask-vault-pass
+ansible-playbook -i inventory testing.yml --tags myapp --vault-password-file=vaultpass
+```
 
 ## Shell/command modules, overriding changed/failed, register results
 
@@ -181,10 +193,6 @@ Special mention to:
 - ...
 
 ## Builtin variables
-
-## Ansible Vault
-
-## vars_prompt
 
 ## Facts caching
 

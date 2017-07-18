@@ -1,2 +1,3 @@
 ---
 # defaults file for example.myapp
+myapp_version: 1

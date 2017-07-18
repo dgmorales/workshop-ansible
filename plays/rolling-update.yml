@@ -4,6 +4,10 @@
 
 - hosts: webservers
   serial: 1
+  vars_prompt:
+    - name: "myapp_version"
+      prompt: "Myapp version"
+      default: "2"
   become: true
   tasks:
     - name: disable the server in haproxy

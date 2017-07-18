@@ -9,7 +9,9 @@
 <?php
  Print "Hello, World! I am a web server configured using Ansible and I am : ";
  echo exec('hostname');
- Print  "</BR>";
+ Print "</BR>";
+ Print "I am app version <b>{{ myapp_version }}</b>.";
+ Print "</BR>";
 echo  "List of Databases: </BR>";
         {% for host in groups['dbservers'] %}
                 $link = mysqli_connect('{{ hostvars[host].ansible_enp0s8.ipv4.address }}', '{{ hostvars[host].dbuser }}', '{{ hostvars[host].upassword }}') or die(mysqli_connect_error($link));
