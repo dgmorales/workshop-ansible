@@ -1,4 +1,0 @@
-example.nginx ansible_connection=docker
-
-[group1]
-example.nginx

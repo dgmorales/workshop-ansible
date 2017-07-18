@@ -36,16 +36,17 @@ Vagrant.configure(2) do |config|
     #cm3.vm.network "forwarded_port", guest: 4440, host: 4440
   end
 
-  # config.vm.define :tower do |cm5|
-  #   cm5.vm.box = "ansible/tower"
-  #   cm5.vm.provider "virtualbox" do |vb|
-  #      vb.memory = "1024"
-  #   end
-  #   cm5.vm.hostname = "tower.local"
-  #   cm5.vm.network "private_network", ip: "192.168.100.9", virtualbox__intnet: "cmnet"
-  #   cm5.vm.network "forwarded_port", guest: 443, host: 8443
-  #   cm5.vm.boot_timeout = 600
-  # end
+  config.vm.define :tower do |cm5|
+    cm5.vm.box = "ansible/tower"
+    cm5.vm.provider "virtualbox" do |vb|
+       vb.memory = "1024"
+    end
+    cm5.vm.provision "shell", path: "./workshop_data/prov-tower.sh"
+    cm5.vm.hostname = "tower.local"
+    cm5.vm.network "private_network", ip: "192.168.100.9", virtualbox__intnet: "cmnet"
+    cm5.vm.network "forwarded_port", guest: 443, host: 8443
+    cm5.vm.boot_timeout = 600
+  end
 
   config.vm.define :m1 do |m1|
     m1.vm.hostname = "m1.local"

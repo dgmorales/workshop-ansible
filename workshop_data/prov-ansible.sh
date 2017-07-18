@@ -12,5 +12,5 @@ yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.r
 rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 yum makecache
 
-# Install ansible
-yum install ansible python2-winrm -y
+# Install ansible & friends
+yum install ansible python2-winrm git -y

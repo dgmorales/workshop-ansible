@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars:
+    mysqlservice: mysqld
+    mysql_port: 3306
+    dbuser: myappuser
+    dbname: myapp
+    upassword: myapppass
+  roles:
+    - role: example.mariadb

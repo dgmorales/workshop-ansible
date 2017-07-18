@@ -1,7 +1,7 @@
 ---
 # tasks file for example.nginx
 - include: nginx-repo.yml
-  when: not {{ nginx_use_epel|bool }}
+  when: not nginx_use_epel|bool
 
 - name: Ensure nginx is installed.
   yum: name=nginx state=installed

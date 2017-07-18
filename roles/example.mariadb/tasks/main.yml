@@ -16,7 +16,9 @@
   - restart mariadb
 
 - name: Create MariaDB log file
-  file: path=/var/log/mysqld.log state=touch owner=mysql group=mysql mode=0775
+  file: path=/var/log/mysqld.log state=touch owner=mysql group=mysql mode=0644
+  # ugly hack because of https://github.com/ansible/ansible/issues/7490
+  changed_when: false
 
 - name: Create MariaDB PID directory
   file: path=/var/run/mysqld state=directory owner=mysql group=mysql mode=0775
